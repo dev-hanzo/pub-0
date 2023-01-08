@@ -1,0 +1,134 @@
+site_name: Obsidian Mkdocs Publisher
+site_description: The documentation for Obsidian Mkdocs Publisher
+site_url: https://obsidian-publisher.netlify.app
+
+theme:
+    name: 'material'
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+    logo: assets/meta/SEO.png
+    favicon: assets/meta/SEO.png
+    custom_dir: overrides
+    font:
+        text: Ubuntu
+        code: Ubuntu Mono
+    language: en
+    palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    features:
+        - navigation.indexes
+        - navigation.top
+        - navigation.sections
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.expand
+        - search.suggest
+        - search.highlight
+# Extensions
+markdown_extensions:
+  - footnotes
+  - nl2br
+  - attr_list
+  - sane_lists
+  - meta
+  - smarty
+  - tables
+  - mdx_breakless_lists
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+  - pymdownx.tasklist:
+       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - admonition
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+plugins:
+  - search
+  - ezlinks:
+        wikilinks: true
+  - mermaid2
+  - awesome-pages:
+      collapse_single_pages: true
+  - embed_file:
+      callouts: true
+      custom-attributes: 'assets/css/custom_attributes.css'
+      language_message: 'ERROR 404 : NOT FOUND'
+  - callouts
+  - custom-attributes:
+      file: 'assets/css/custom_attributes.css'
+  - meta-descriptions
+  - i18n:
+      default_language: en
+      docs_structure: folder
+      languages:
+        en:
+          name: English
+        fr:
+          name: Français
+extra_javascript:
+  - assets/js/mathjax.js
+  - assets/js/utils.js
+  - assets/js/wiki_hover.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+hooks:
+  - overrides/hooks/on_page_markdown.py
+  - overrides/hooks/on_env.py
+extra_css:
+    - assets/css/template/img-grids-floats.css
+    - assets/css/template/utils.css
+    - assets/css/template/blog.css
+    - assets/css/template/grid.css
+    - assets/css/custom_attributes.css
+    - assets/css/highlight.css
+    - assets/css/admonition.css
+    - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
+extra:
+  generator: false
+  SEO: 'assets/meta/SEO.png'
+  blog_list:
+    pagination: true
+    pagination_message: false
+    pagination_translation: ''
+  hooks:
+    strip_comments: true
+    fix_heading: false
+
