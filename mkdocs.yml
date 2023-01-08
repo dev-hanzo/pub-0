@@ -85,8 +85,7 @@ plugins:
   - ezlinks:
         wikilinks: true
   - mermaid2
-  - awesome-pages:
-      collapse_single_pages: true
+  - awesome-pages
   - embed_file:
       callouts: true
       custom-attributes: 'assets/css/custom_attributes.css'
