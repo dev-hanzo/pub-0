@@ -95,14 +95,6 @@ plugins:
   - custom-attributes:
       file: 'assets/css/custom_attributes.css'
   - meta-descriptions
-  - i18n:
-      default_language: en
-      docs_structure: folder
-      languages:
-        en:
-          name: English
-        fr:
-          name: Français
 extra_javascript:
   - assets/js/mathjax.js
   - assets/js/utils.js
