@@ -6,7 +6,7 @@ category: wiki
 ---
 
 
-[post-1](../first post)
+[../first post](post-1.md)
 
 
 ![](../_Files_/pic-1.svg)
