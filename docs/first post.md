@@ -4,7 +4,7 @@ title: first post
 ---
 # Document 1223
 
-[new post](new%20post.md)
+[new post](./wiki/post-G2.md)
 
 # top1
 
