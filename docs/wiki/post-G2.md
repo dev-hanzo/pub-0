@@ -14,14 +14,18 @@ category: wiki
 
 
 [new post](post-G2.md)
-[post 1](../first%20my%20post.md)
+[post 3](../first%20my%20post.md)
 
 [new post](post-G2.md)
-[post 1](../first%20my%20post.md)
+[post 3](../first%20my%20post.md)
 # top2
 
-![post 1 1](../first%20my%20post.md#soft1)
+![first my post](../first%20my%20post.md#soft1)
 
 
 
 ![new skr](../../new%20skr.md#skr1)
+
+
+
+
