@@ -1,23 +1,18 @@
 ---
 share: true
-title: first post
+title: first my post
 ---
 
-
+[new post](./wiki/post-G2.md)
 # soft1
-
->fghdfghdfhdfghdfgh
->dydthrthrthrthrth
->аноеноаеноено
-
 
 [**new post**](./wiki/post-G2.md)
 
-[**post-1**](first post)
+[**post-1**](first my post.md)
 
 [*new post*](./wiki/post-G2.md)
 
-[==first post==](post-1.md)
+[==post-1==](first my post.md)
    
 
 
