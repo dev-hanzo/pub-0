@@ -6,7 +6,7 @@ title: first my post
 [new post](./wiki/post-G2.md)
 # soft1
 
-[post 1](first%20my%20post.md)
+[post 3](first%20my%20post.md)
 
 [new post](./wiki/post-G2.md)
 # soft2
