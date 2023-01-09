@@ -32,3 +32,7 @@ title: first post
 
 [new post-top1](new%20post.md#top1)
 [new post-top2](new%20post.md#top2)
+
+[new post-top1](INBOX/new%20post.md#top1)
+[new post-top2](INBOX/new%20post.md#top2)
+
