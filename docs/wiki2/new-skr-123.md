@@ -1,0 +1,4 @@
+```dataviewjs
+dv.view('toc')
+
+```
