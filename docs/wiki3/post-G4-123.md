@@ -18,9 +18,9 @@ category: wiki3
 
 [post 4---](../second%20my%20post.md#soft1)
 
-[last post---](../../new%20skr%20123.md#skr1)
+[last post---](../wiki2/new-skr-123.md#skr1)
 
 
-![last post 123](../../new%20skr%20123.md#skr1)
+![last post 123](../wiki2/new-skr-123.md#skr1)
 
 
