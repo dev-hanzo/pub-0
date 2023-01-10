@@ -17,9 +17,9 @@ category: wiki2
 ![post 4](../second%20my%20post.md#soft1)
 
 
-![last post 123](./new-skr.md#skr1)
+![last post 123](../new%20skr%20как.md#skr1)
 
 
 [post 4---](../second%20my%20post.md#soft1)
 
-[last post---](./new-skr.md#skr1)
+[last post---](../new%20skr%20как.md#skr1)
