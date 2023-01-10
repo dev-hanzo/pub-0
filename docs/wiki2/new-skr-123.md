@@ -1,4 +1,0 @@
-```dataviewjs
-dv.view('toc')
-
-```
