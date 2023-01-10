@@ -17,9 +17,19 @@ category: wiki2
 ![post 4](../second%20my%20post.md#soft1)
 
 
-![last post 123](./new-skr-как.md#skr1)
+![last post 123](../../new%20skr%20123.md#skr1)
 
 
 [post 4---](../second%20my%20post.md#soft1)
 
-[last post---](./new-skr-как.md#skr1)
+[last post---](../../new%20skr%20123.md#skr1)
+
+
+
+
+
+```query
+line: (Tod65941)
+content: "Ty67er5"
+line: данные
+```
