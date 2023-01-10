@@ -9,15 +9,15 @@ category: wiki2
 ![кккккк200](../_Files_/pic-1.svg)
 
 
-[new2 post](./post-G3.md)
+[new2 post 123](./post-G3-123.md)
 
 [post 4](../second%20my%20post.md)
 
-[last post](new-skr.md)
+[last post 123](new-skr.md)
 
 # skr2
 
-  [new2 post](./post-G3.md) [post 4](../second%20my%20post.md) ^ue-n7
+  [new2 post 123](./post-G3-123.md) [post 4](../second%20my%20post.md) ^ue-n7
 
 
 

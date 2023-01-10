@@ -1,6 +1,6 @@
 ---
 share: true
-title: post G3
+title: post G3 123
 category: wiki2
 ---
 
@@ -10,14 +10,14 @@ category: wiki2
 
 [post 4](../second%20my%20post.md)
 
-[new2 post](post-G3.md)
+[new2 post 123](post-G3-123.md)
 
 # top2
 
 ![post 4](../second%20my%20post.md#soft1)
 
 
-![last post](./new-skr.md#skr1)
+![last post 123](./new-skr.md#skr1)
 
 
 [post 4---](../second%20my%20post.md#soft1)
