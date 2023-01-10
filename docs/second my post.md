@@ -3,17 +3,17 @@ share: true
 title: second my post
 ---
 
-[new2 post](./wiki2/post-G3.md)
+[new post](My%20Folder/new2%20post.md)
 # soft1
 
-[post 4](second%20my%20post.md)
+[post 4](post%204.md)
 
-[new2 post](./wiki2/post-G3.md)
+[new post](new2%20post.md)
 # soft2
 
-![new2 post](./wiki2/post-G3.md#top1)
+![new post](new2%20post.md#top1)
 
-[new2 post](./wiki2/post-G3.md#top1)
+[new post](new2%20post.md#top1)
 
 
 
