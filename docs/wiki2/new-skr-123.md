@@ -9,7 +9,7 @@ category: wiki2
 
 [new3 post 123](../wiki3/post-G4-123.md)
 
-[post 4](../second%20my%20post.md)
+[post 4](./second-my-post.md)
 
 [last post 123](new-skr-123.md)
 ![кккккк200](../_Files_/pic-1.svg)
@@ -19,7 +19,7 @@ category: wiki2
 
 # skr2
 
-  [new3 post 123](../wiki3/post-G4-123.md) [post 4](../second%20my%20post.md) ^ue-n7
+  [new3 post 123](../wiki3/post-G4-123.md) [post 4](./second-my-post.md) ^ue-n7
 
 
 
@@ -49,11 +49,6 @@ see _↪_ [last post-block](new-skr-123.md#^ue-n7)
 
 ### [Техники `BA`](../Техники%20`BA`.md)
 ``
-```'ghghghgh вервраенраеноеноетап
-
-аеноаеноеноеноено'';.
-
-```
 
 `rtrtrtrtrtrtrtrt`
 
