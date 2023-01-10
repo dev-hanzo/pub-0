@@ -1,6 +1,6 @@
 ---
 share: true
-title: new skr
+title: new skr как
 category: wiki2
 ---
 
@@ -13,7 +13,7 @@ category: wiki2
 
 [post 4](../second%20my%20post.md)
 
-[last post 123](new-skr.md)
+[last post 123](new-skr-как.md)
 
 # skr2
 
@@ -21,10 +21,10 @@ category: wiki2
 
 
 
-![ht](new-skr.md#^ue-n7)
+![ht](new-skr-как.md#^ue-n7)
 
 
 
-see _↪_ [last post-block](new-skr.md#^ue-n7)
+see _↪_ [last post-block](new-skr-как.md#^ue-n7)
 
 
