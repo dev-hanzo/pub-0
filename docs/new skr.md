@@ -23,10 +23,10 @@ title: new skr
 
 
 see _↪_   [Роли в Scrum](/INBOX/`Scrum`.md#^dvmf87)
-[`Scrum`](../../../`Scrum`.md)
+[`Scrum`](../%60Scrum%60.md)
 see _↪_   [Фреймворки Scrum](../ЧТО%20ТАКОЕ%20AGILE%20(гайд%20от%20Саши).md/#^ikrqas)
 
-see _↪_ [Артефакты в Scrum](../../../`Scrum`.md)
+see _↪_ [`Scrum`](../%60Scrum%60.md)
 
 
 rererererer
