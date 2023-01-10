@@ -10,7 +10,7 @@ category: wiki2
 
 [post 4](../second%20my%20post.md)
 
-[new2 post](post-G3.md)
+[new2 post](post%20G3.md)
 
 # top2
 
@@ -20,6 +20,6 @@ category: wiki2
 ![last post](../new%20skr.md#skr1)
 
 
-[post 4](../second%20my%20post.md#soft1)
+[post 4---](../second%20my%20post.md#soft1)
 
-[last post](../new%20skr.md#skr1)
+[last post---](../new%20skr.md#skr1)
