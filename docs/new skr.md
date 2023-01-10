@@ -18,12 +18,12 @@ title: new skr
 
   [post 4](./second%20my%20post.md) ^ue-n7
 
-see _↪_ [ht](INBOX/My%20Folder/last%20post.md#^ue-n7)
+
 
 ![ht](last%20post.md#^ue-n7)
 
 
 
-
+see _↪_ [last post-block](INBOX/My%20Folder/last%20post.md#^ue-n7)
 
 
