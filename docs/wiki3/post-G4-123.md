@@ -6,9 +6,9 @@ category: wiki3
 
 # top1
 
-![This is an image|50](https://myoctocat.com/assets/images/base-octocat.svg)
+![pic-ex|100](https://myoctocat.com/assets/images/base-octocat.svg)
 
-![кккккк200](../_Files_/pic-1.svg)
+![pic-in100](../_Files_/pic-1.svg)
 
 # top2
 
