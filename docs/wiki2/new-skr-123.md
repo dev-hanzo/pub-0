@@ -7,27 +7,10 @@ category: wiki2
 # skr1
 
 
-[new3 post 123](../wiki3/post-G4-123.md)
-
-[post 4](./second-my-post.md)
-
 [last post 123](new-skr-123.md)
 ![кккккк200](../_Files_/pic-1.svg)
 
 
-
-
-# skr2
-
-  [new3 post 123](../wiki3/post-G4-123.md) [post 4](./second-my-post.md) ^ue-n7
-
-
-
-![ht](new-skr-123.md#^ue-n7)
-
-
-
-see _↪_ [last post-block](new-skr-123.md#^ue-n7)
 
 # skr4
 
@@ -50,8 +33,8 @@ __жирный__
 
 > t45345646 653464563 
 > er5454545y4
->>       5454545454
->> 			      56565656
+>>    5454545454
+>> 				56565656
 
 
 >[!FAQ] новое111
@@ -115,7 +98,7 @@ You can also use words, to fit your writing style more closely[^note].
 
 
 
-![This is an image|50](https://myoctocat.com/assets/images/base-octocat.svg)
+почему ![This is an image|50](https://myoctocat.com/assets/images/base-octocat.svg) он ушел
 
 
 вапвапвапва[^3]
@@ -148,11 +131,14 @@ You can also use words, to fit your writing style more closely[^note].
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+кликабельная картинка или видео
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=m8DhqtlNGxQ
+<a href="https://jeffreytse.net/
 " target="_blank"><img src="http://i3.ytimg.com/vi/OOxL-r1L334/hqdefault.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="30" /></a>
+alt="IMAGE ALT TEXT HERE" width="240" height="500" border="0" /></a>
 
+
+неопубликованная часть
 %% вапрвапрвапапр
 🟠🟡🟢🔵🟣🟨
 %%
@@ -168,6 +154,25 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="30" /></a>
 
 # 🟠изучить
 
+# изучить
+# изучить
+# изучить
+# ⚡⭐🧡⭕🔰✅❕❔▫▪✔🔺🔻♦🕒💬🔔❌⚠📌📙📘📗💡⏱ изучить
+# изучить
+# изучить
+# изучить
+# изучить
+## ⚡⭐🧡⭕🔰✅❕❔▫▪✔🔺🔻♦🕒💬🔔❌⚠📌📙📘📗💡⏱ изучить
+## изучить
+## изучить
+## изучить
+## изучить
+## изучить
+## изучить
+## изучить
+## изучить
+## изучить
+	
 
 
 
