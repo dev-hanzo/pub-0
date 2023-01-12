@@ -10,6 +10,7 @@ site_dir: ./site
 # P
 theme:
     name: material
+    logo: assets/logo.svg
     custom_dir: overrides
     font:
       text: Inter
@@ -78,6 +79,7 @@ markdown_extensions:
   - tables
   - mdx_breakless_lists
   - def_list
+  - md_in_html
 # P
   - pymdownx.arithmatex:
       generic: true
@@ -110,6 +112,8 @@ markdown_extensions:
 # P
   - toc:
       permalink: true
+      permalink_title: Anchor link to this section for reference
+      title: On this page
 # P
 # Pl
 plugins:
@@ -142,6 +146,7 @@ hooks:
 extra_javascript:
   - assets/js/mathjax.js
   - assets/js/utils.js
+  - assets/js/wiki_hover.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
