@@ -2,12 +2,15 @@
 share: true
 title: post G4 123
 category: wiki3
+description: лучшее описание
 hide:
   - footer
 ---
 
+<p align="center"> <img height="400px" src="INBOX/My%20Folder/Files2/pic-1.svg"></p>
+:material-test-tube:
 
-
+![22222222](INBOX/My%20Folder/Files/pic-1.svg)
 
 <figure markdown>
   ![Image title](../_Files_/pic-1.svg){ width="100" }
