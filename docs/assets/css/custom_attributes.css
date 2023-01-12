@@ -52,7 +52,7 @@
   color: #1DA1F2;
 }
 
-img[alt*="center"] {
+.img[alt*="center"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
