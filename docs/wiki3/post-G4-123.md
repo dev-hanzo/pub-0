@@ -7,22 +7,34 @@ hide:
   - footer
 ---
 
-
+блок впыкпыкпукпцукпцукпцукпцукп ^d28vs
 ![Photo | center | 256](../_Files_/pic-1.svg)
 
 <figure markdown>
   ![Image title](../_Files_/pic-1.svg){ width="100" }
 </figure>
 
+[`блок123`](post-G4-123.md#^d28vs)
+
+
+121212 { #+social.name }
+
+
+
+
+
+[`блок123`](#+d28vs) { #+d28vs }
+
+[`блок123`](post-G4-123.md#^d28vs) { #^d28vs }
+
+[`блок123`](#+^d28vs) { #+^d28vs }
 
 
 # tip
 
-`name`
 
-#+social.name
 
-[`name`](#+social.name){ #+social.name }
+[`name`](#+social.name) 
 
 # top1
 
