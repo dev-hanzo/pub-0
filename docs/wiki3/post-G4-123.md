@@ -7,29 +7,34 @@ hide:
   - footer
 ---
 
-<p align="center"> <img height="400px" src="INBOX/My%20Folder/Files2/pic-1.svg"></p>
-:material-test-tube:
-
-![22222222](INBOX/My%20Folder/Files/pic-1.svg)
+блок впыкпыкпукпцукпцукпцукпцукп ^d28vs
+![Photo | center | 256](../_Files_/pic-1.svg)
 
 <figure markdown>
   ![Image title](../_Files_/pic-1.svg){ width="100" }
 </figure>
 
+[`блок123`](post-G4-123.md#^d28vs)
+
+
+121212 { #+social.name }
 
 
 
 
 
- <figcaption>Image caption</figcaption>
+[`блок123`](#+d28vs) { #+d28vs }
+
+[`блок123`](post-G4-123.md#^d28vs) { #^d28vs }
+
+[`блок123`](#+^d28vs) { #+^d28vs }
 
 
-# Document title
-...
+# tip
 
 
 
-
+[`name`](#+social.name) 
 
 # top1
 
@@ -45,56 +50,6 @@ hide:
 
 
 # Howto Collapsible Sections in GitHub Markdown
-
-<details>
-
-<summary>Section One</summary>
-
-#### This
-
-Is how things ...
-
-* appear
-
-* to
-
-* work
-
-#### And This
-
-Is another story altogether.
-
-<details>
-
-<summary>With even more ...</summary>
-
-```
-
-details!
-
-```
-
-</details>
-
-</details>
-
-
-
-
-<figure markdown>
-  ![Image title](https://dummyimage.com/600x400/){ width="300" }
-  <figcaption>Image caption</figcaption>
-</figure>
-
-<details>
-
-<summary>Section Two </summary>
-
-#### Be Here
-
-вложенное описание
-
-</details>
 
 
 
