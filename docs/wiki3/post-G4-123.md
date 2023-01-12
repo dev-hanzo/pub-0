@@ -8,7 +8,7 @@ category: wiki3
 
 ![pic-ex|100](https://myoctocat.com/assets/images/base-octocat.svg)
 
-![pic-in100](../_Files_/pic-1.svg)
+![pic-in|100](../_Files_/pic-1.svg)
 
 # top2
 
@@ -51,14 +51,20 @@ details!
 
 </details>
 
+
+
+
+<figure markdown>
+  ![Image title](https://dummyimage.com/600x400/){ width="300" }
+  <figcaption>Image caption</figcaption>
+</figure>
+
 <details>
 
-<summary>Section Two</summary>
+<summary>Section Two </summary>
 
 #### Be Here
 
-Section two is here as well.
+вложенное описание
 
 </details>
-
-
