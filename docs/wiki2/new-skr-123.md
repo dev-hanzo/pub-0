@@ -51,7 +51,7 @@ __жирный__
 ---
 
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
+<iframe width="400" height="300" src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
 
 
 
@@ -179,7 +179,7 @@ https://jeffreytse.net/
 </figure>
 
 
-# :octicons-heart-fill-24:{ .heart } лучшее
+# лучшее
 [Hover me](https://example.com "I'm a tooltip!")
 
 :octicons-heart-fill-24:{ .heart }
@@ -193,9 +193,17 @@ https://jeffreytse.net/
 
 <summary>Section Two </summary>
 
-#### Be Here
+#### metadata
 
-вложенное описание
+- Type:: #123
+- Status:: #edit 
+- Location:: #пк
+- Project:: 
+- Topic:: 
+- Back link:: [Техники `BA`](../../Техники%20`BA`.md)
+- Source:: 
+____________
+🔻​
 
 </details>
 
@@ -204,4 +212,9 @@ https://jeffreytse.net/
 [`name`](#+social.name){ #+social.name }
 
 
-![Photo|center|100](../_Files_/pic-1.svg)
+
+
+
+![Photo|250](../_Files_/pic-1.svg)
+
+
