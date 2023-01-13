@@ -3,7 +3,6 @@ share: true
 title: post G5 123
 category: wiki3
 description: лучшее описание
-cover: assets/logo2.svg
 hide:
   - footer
   - toc
