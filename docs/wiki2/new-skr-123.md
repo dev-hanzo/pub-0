@@ -17,7 +17,7 @@ category: wiki2
 
 - список
 	- два 
-	- три
+	- три ♦
 
 
 ==выделение==
@@ -91,7 +91,7 @@ You can also use words, to fit your writing style more closely[^note].
 
 
 
-почему ![This is an image|50](https://myoctocat.com/assets/images/base-octocat.svg) он ушел
+почему ![This is an image|50](https://myoctocat.com/assets/images/base-octocat.svg) он ушел ♦
 
 
 вапвапвапва[^3]
@@ -103,7 +103,7 @@ You can also use words, to fit your writing style more closely[^note].
 
 
 
-- [x] #739
+- [x] #739 ♦
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [x] Add delight to the experience when all tasks are complete :tada:
 
@@ -147,7 +147,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="300" border="0" /></a>
 # ▪ изучить
 # ▫ изучить ⛔
 # изучить 🔥💥🚩
-# изучить
+# ♦ изучить
 # важно ⚡
 # изучить
 # ⭐изучить
@@ -225,13 +225,6 @@ ____________
 
 
 
-!!! info inline end
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
 
 
 
@@ -240,3 +233,13 @@ ____________
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+
+
+>[!FAQ]+ новое111
+> - текст 1 
+> - It supports **markdown** and [wikilinks](Internal%20link).
+
+
+
+
