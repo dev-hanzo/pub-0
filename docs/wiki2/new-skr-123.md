@@ -51,7 +51,7 @@ __жирный__
 ---
 
 
-<iframe src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
 
 
 
@@ -59,11 +59,11 @@ __жирный__
 
 
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vS9AfDDCl79MKrXEqohPFVgw0cRTBn1gvSTrsYQP58ngf8YJ5IIhov3pGTwzVGpmNvqpwEYV1idbQ7U/pub?embedded=true"></iframe>
+<iframe width="100%" height="400" src="https://docs.google.com/document/d/e/2PACX-1vS9AfDDCl79MKrXEqohPFVgw0cRTBn1gvSTrsYQP58ngf8YJ5IIhov3pGTwzVGpmNvqpwEYV1idbQ7U/pub?embedded=true"></iframe>
 
 
 
-<iframe border=0 frameborder=0 height=250 width=550 src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fjack%2Fstatus%2F20"> </iframe>
+<iframe border=0 frameborder=0 height=300 width=500 src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fjack%2Fstatus%2F20"> </iframe>
 
 ![](https://youtube.com/clip/Ugkx0t8HcfuNmlrT_vXoG-j5CSmg93tCsokj)
 
@@ -74,7 +74,7 @@ __жирный__
 🔹 Если какие-то из этих ролей не представлены, это 
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZo83dhaNdSoqUC4i-yfhlBZuBB31ON3UyJmNg2FGxlVgNLD7xi6fGA1ryt8pZkOla3yMzUu_dCjag/pubhtml?gid=1187255135&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe width="100%" height="300" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZo83dhaNdSoqUC4i-yfhlBZuBB31ON3UyJmNg2FGxlVgNLD7xi6fGA1ryt8pZkOla3yMzUu_dCjag/pubhtml?gid=1187255135&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
 
@@ -82,7 +82,7 @@ __жирный__
 
 ываываываыва <sup> 45454545папрапрапр  http://example.com/  </sup> вапвапвап
 
-
+## 💡
 Here is a simple footnote.
 бесплатная. ^1
 A footnote can also have multiple lines[^2].  
@@ -111,10 +111,7 @@ You can also use words, to fit your writing style more closely[^note].
 
 [^1]: My reference.
 [^2]: Every new line should be prefixed with 2 spaces.  
-  This allows you to have a footnote with multiple lines.
-[^note]:
-    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
-    This footnote also has been made <span style="color:blue">some *blue* text</span>. https://jeffreytse.net/ with a different syntax using 4 spaces for new lines.
+  This allows <span style="color:blue">some *blue* text</span>. https://jeffreytse.net/ you to have a footnote with multiple lines.
 
 
 
@@ -147,24 +144,23 @@ alt="IMAGE ALT TEXT HERE" width="240" height="500" border="0" /></a>
 
 # 🟠изучить
 
+# ▪ изучить
+# ▫ изучить ⛔
+# изучить 🔥💥🚩
 # изучить
+# важно ⚡
 # изучить
-# изучить
-# ⚡⭐🧡⭕🔰✅❕❔▫▪✔🔺🔻♦🕒💬🔔❌⚠📌📙📘📗💡⏱ изучить
-# изучить
-# изучить
-# изучить
-# изучить
-## ⚡⭐🧡⭕🔰✅❕❔▫▪✔🔺🔻♦🕒💬🔔❌⚠📌📙📘📗💡⏱ изучить
+# ⭐изучить
+## книги 📗
 ## изучить
-## изучить
-## изучить
-## изучить
-## изучить
-## изучить
-## изучить
-## изучить
-## изучить
+## ✅ изучить
+## изучить 🕒
+## напоминание 🔔
+## ▫ пункт
+## идея  и совет 💡
+## обсудим или цитаты 💬
+## ❌ ошибки
+## 🔻 раскрыть
 	
 
 
@@ -208,4 +204,4 @@ https://jeffreytse.net/
 [`name`](#+social.name){ #+social.name }
 
 
-![Photo | center | 256](../_Files_/pic-1.svg)
+![Photo | center | 100](../_Files_/pic-1.svg)
