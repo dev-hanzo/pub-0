@@ -38,7 +38,7 @@ theme:
       # Dark mode    
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: orange
+      primary: indigo
       accent: orange
       toggle:
         icon: material/weather-night
@@ -67,7 +67,9 @@ markdown_extensions:
   - attr_list
   - footnotes
   - pymdownx.details
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.magiclink
   - pymdownx.superfences
