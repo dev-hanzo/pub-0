@@ -5,25 +5,58 @@ category: wiki3
 description: лучшее описание
 hide:
   - footer
-  - toc
+image: _Files_/Pasted%20image%2020221224070649.png
 ---
 
-![схема скрам|600](../_Files_/Pasted image 20221227085336.png)
+{% octicon shield-x height:16 %}
+
+![](../_Files_/222.csv)
+```csvtable
+source: _Files_/222.csv
+```
+
+| File                                                    | status              | project                | location | изменил           |
+| ------------------------------------------------------- | ------------------- | ---------------------- | -------- | ----------------- |
+| [как вести блок](../../%D0%BA%D0%B0%D0%BA%20%D0%B2%D0%B5%D1%81%D1%82%D0%B8%20%D0%B1%D0%BB%D0%BE%D0%BA.md)                   | #сократить #изучить | [мой Блог](мой%20Блог) | #пк      | December 17, 2022 |
+| [матрица регулярности](../../%D0%BC%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0%20%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B8.md) | \-                  | \-                     | \-       | December 17, 2022 |
+| [0_Карьера](../../0_%D0%9A%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D0%B0.md)                       | \-                  | \-                     | \-       | December 17, 2022 |
+
+
+
+
+| USDT - USDN | USDC - BUSD |
+| ----------- | ----------- |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
+| \-          | \-          |
 
 
 
 # tip
 
+```
+
+
 
 
 # top1
 
-[post 4](../wiki4/second-my-post2.md)
+[post 4](INBOX/post%204.md)
 
 
 # top2
 
-![post 4](../wiki4/second-my-post2.md#soft1)
+![post 4](INBOX/post%204.md#soft1)
 
 
 
@@ -33,4 +66,4 @@ hide:
 
 
 
-![`Scrum`](../wiki4/скрам-на-проектах.md#Scrum)
+![`Scrum`](INBOX/`Scrum`.md#Scrum)
