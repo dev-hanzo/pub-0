@@ -215,6 +215,6 @@ ____________
 
 
 
-![Photo|250](../_Files_/pic-1.svg)
+![Photo|center|250](../_Files_/pic-1.svg)
 
 
