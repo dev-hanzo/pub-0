@@ -8,12 +8,7 @@ hide:
 image: _Files_/Pasted%20image%2020221224070649.png
 ---
 
-{% octicon shield-x height:16 %}
-
-![](../_Files_/222.csv)
-```csvtable
-source: _Files_/222.csv
-```
+[таблица](_Files_/222.csv)
 
 | File                                                    | status              | project                | location | изменил           |
 | ------------------------------------------------------- | ------------------- | ---------------------- | -------- | ----------------- |
@@ -24,39 +19,31 @@ source: _Files_/222.csv
 
 
 
-| USDT - USDN | USDC - BUSD |
-| ----------- | ----------- |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
-| \-          | \-          |
+| ttt | USDN-USDC |
+| --- | --------- |
+
+
+~~~
+'(', 'null', boolean, date, duration, file link, list ('[1, 2, 3]'), negated field, number, object ('{ a: 1, b: 2 }'), string, variable
+~~~
+
+
+
+
 
 
 
 # tip
 
-```
-
-
-
 
 # top1
 
-[post 4](INBOX/post%204.md)
+[post 4](../wiki4/second-my-post2.md)
 
 
 # top2
 
-![post 4](INBOX/post%204.md#soft1)
+![post 4](../wiki4/second-my-post2.md#soft1)
 
 
 
@@ -66,4 +53,4 @@ source: _Files_/222.csv
 
 
 
-![`Scrum`](INBOX/`Scrum`.md#Scrum)
+![`Scrum`](../wiki4/скрам-на-проектах.md#Scrum)
