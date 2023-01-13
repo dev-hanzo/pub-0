@@ -5,14 +5,13 @@ category: wiki3
 description: лучшее описание
 hide:
   - footer
+  - toc
 ---
 
 блок впыкпыкпукпцукпцукпцукпцукп ^d28vs
 ![Photo | center | 256](../_Files_/pic-1.svg)
 
-<figure markdown>
-  ![Image title](../_Files_/pic-1.svg){ width="100" }
-</figure>
+
 
 [`блок123`](post-G4-123.md#^d28vs)
 
