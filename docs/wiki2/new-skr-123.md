@@ -209,12 +209,17 @@ ____________
 
 
 
-[`name`](#+social.name){ #+social.name }
+[`name`](#+pop){ #+pop }
 
 
 
+--------           ------- ![Photo|center|250](../_Files_/pic-1.svg) --------            ---------
+
+![Photo|center|250](../_Files_/pic-1.svg)
 
 
-![Photo|250](../_Files_/pic-1.svg)
-
+>[!!!]+ info inline end
+апапапрап
+апрапарапр
+апрапрапрап
 
