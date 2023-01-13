@@ -179,7 +179,7 @@ https://jeffreytse.net/
 </figure>
 
 
-# лучшее
+# :octicons-heart-fill-24:{ .heart } лучшее
 [Hover me](https://example.com "I'm a tooltip!")
 
 :octicons-heart-fill-24:{ .heart }
