@@ -127,7 +127,6 @@ plugins:
   - ezlinks:
         wikilinks: true
   - mermaid2
-  - social
   - awesome-pages
   - embed_file:
       callouts: true
