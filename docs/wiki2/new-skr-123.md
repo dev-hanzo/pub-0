@@ -228,11 +228,23 @@ ____________
 
 
 
-???+ note
+???- note
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+> [!warning]-
+> Lorem ipsum dolor sit amet
+
+> [!example] 
+> Lorem ipsum dolor sit amet
+
+> [!quote] 
+> Lorem ipsum dolor sit amet
+
+
+> [!TIP] Callouts can have custom titles, which also supports ==markdown==!
+
 
 
 
