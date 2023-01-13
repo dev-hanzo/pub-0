@@ -51,7 +51,7 @@ __жирный__
 ---
 
 
-<iframe width="100%" height="600" src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
 
 
 
@@ -59,7 +59,7 @@ __жирный__
 
 
 
-<iframe width="100%" height="600" src="https://docs.google.com/document/d/e/2PACX-1vS9AfDDCl79MKrXEqohPFVgw0cRTBn1gvSTrsYQP58ngf8YJ5IIhov3pGTwzVGpmNvqpwEYV1idbQ7U/pub?embedded=true"></iframe>
+<iframe width="100%" height="400" src="https://docs.google.com/document/d/e/2PACX-1vS9AfDDCl79MKrXEqohPFVgw0cRTBn1gvSTrsYQP58ngf8YJ5IIhov3pGTwzVGpmNvqpwEYV1idbQ7U/pub?embedded=true"></iframe>
 
 
 
@@ -74,7 +74,7 @@ __жирный__
 🔹 Если какие-то из этих ролей не представлены, это 
 
 
-<iframe width="100%" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZo83dhaNdSoqUC4i-yfhlBZuBB31ON3UyJmNg2FGxlVgNLD7xi6fGA1ryt8pZkOla3yMzUu_dCjag/pubhtml?gid=1187255135&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe width="100%" height="300" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZo83dhaNdSoqUC4i-yfhlBZuBB31ON3UyJmNg2FGxlVgNLD7xi6fGA1ryt8pZkOla3yMzUu_dCjag/pubhtml?gid=1187255135&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
 
@@ -145,23 +145,22 @@ alt="IMAGE ALT TEXT HERE" width="240" height="500" border="0" /></a>
 # 🟠изучить
 
 # ▪ изучить
-# ▫ изучить
+# ▫ изучить ⛔
+# изучить 🔥💥🚩
 # изучить
-# ⚡⭐🧡⭕🔰✅❕❔▫▪✔🔺🔻♦🕒💬🔔❌⚠📌📙📘📗💡⏱ изучить
+# важно ⚡
 # изучить
-# изучить ⚡
-# ⭕ изучить
 # ⭐изучить
-## 💬📙📘📗
-## 🧡изучить
-## ✔ изучить
-## изучить 🕒
-## изучить 🔔
-## ▫ изучить
-## изучить 💡
+## книги 📗
 ## изучить
-## ❌ изучить
-## 🔺 изучить
+## ✅ изучить
+## изучить 🕒
+## напоминание 🔔
+## ▫ пункт
+## идея  и совет 💡
+## обсудим или цитаты 💬
+## ❌ ошибки
+## 🔻 раскрыть
 	
 
 
@@ -205,4 +204,4 @@ https://jeffreytse.net/
 [`name`](#+social.name){ #+social.name }
 
 
-![Photo | center | 256](../_Files_/pic-1.svg)
+![Photo | center | 100](../_Files_/pic-1.svg)
