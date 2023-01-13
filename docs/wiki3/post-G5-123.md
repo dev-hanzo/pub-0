@@ -5,8 +5,7 @@ category: wiki3
 description: лучшее описание
 hide:
   - footer
-  - toc
-cover: INBOX/_Files_/0e9eb07ed8dc2bc2f1f35ebdcaea1439.png
+image: _Files_/Pasted%20image%2020221224070649.png
 ---
 
 # tip
