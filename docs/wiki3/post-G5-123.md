@@ -8,6 +8,10 @@ hide:
   - toc
 ---
 
+![схема скрам|600](../_Files_/Pasted image 20221227085336.png)
+
+
+
 # tip
 
 
