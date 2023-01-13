@@ -1,6 +1,6 @@
 ---
 share: true
-title: post G4 123
+title: post G5 123
 category: wiki3
 description: лучшее описание
 hide:
