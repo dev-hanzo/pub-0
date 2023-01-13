@@ -73,6 +73,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.tasklist
+  - pymdownx.snippets
 # P
   - footnotes
   - nl2br
