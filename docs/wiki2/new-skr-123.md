@@ -125,7 +125,7 @@ You can also use words, to fit your writing style more closely[^note].
 
 <a href="https://jeffreytse.net/
 " target="_blank"><img src="http://i3.ytimg.com/vi/OOxL-r1L334/hqdefault.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="500" border="0" /></a>
+alt="IMAGE ALT TEXT HERE" width="240" height="300" border="0" /></a>
 
 
 неопубликованная часть
@@ -204,4 +204,4 @@ https://jeffreytse.net/
 [`name`](#+social.name){ #+social.name }
 
 
-![Photo | center | 100](../_Files_/pic-1.svg)
+![Photo|center|100](../_Files_/pic-1.svg)
