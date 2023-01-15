@@ -218,23 +218,19 @@ ____________
 ![Photo|center|250](../_Files_/pic-1.svg)
 
 
->[!note]+ info inline end
-апапапрап
-апрапарапр
-апрапрапрап
-
-
-
-
-
-
-???- note
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
 
 > [!warning]-
-> Lorem ipsum dolor sit amet
+> Type:: #ttt
+> Status:: #edit 
+> Location:: #пк
+> 
+> Project:: 
+> 
+> Topic:: 
+> Back link:: [Техники `BA`](../../Техники%20`BA`.md)
+> Source::
+
+
 
 > [!example] 
 > Lorem ipsum dolor sit amet
@@ -251,6 +247,21 @@ massa, nec semper lorem quam in massa.
 >[!FAQ]+ новое111
 > - текст 1 
 > - It supports **markdown** and [wikilinks](Internal%20link).
+
+
+
+<a href="[https://www.komoot.com/tour/829959589?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&ref=wtd](https://www.komoot.com/tour/829959589?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&ref=wtd)" target="_blank" rel="nofollow noopener noreferrer"><img src="[https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&image=1&hm=false&profile=1&width=640&height=700](https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&image=1&hm=false&profile=1&width=640&height=700)" width="640" height="700"/></a>
+
+
+
+
+
+
+<iframe src="[https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&profile=1](https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&profile=1)" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+
+
+
+https://www.komoot.com/tour/829959589?ref=avs&share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r
 
 
 
