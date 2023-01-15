@@ -248,20 +248,18 @@ ____________
 > - текст 1 
 > - It supports **markdown** and [wikilinks](Internal%20link).
 
-
-
-<a href="[https://www.komoot.com/tour/829959589?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&ref=wtd](https://www.komoot.com/tour/829959589?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&ref=wtd)" target="_blank" rel="nofollow noopener noreferrer"><img src="[https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&image=1&hm=false&profile=1&width=640&height=700](https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&image=1&hm=false&profile=1&width=640&height=700)" width="640" height="700"/></a>
+<iframe src="https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
 
 
 
 
 
 
-<iframe src="[https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&profile=1](https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&profile=1)" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&profile=1" width="640" height="700" frameborder="0" scrolling="no"></iframe>
 
 
+<iframe src="https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r" width="640" height="600" frameborder="0" scrolling="no"></iframe>
 
-https://www.komoot.com/tour/829959589?ref=avs&share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r
 
 
 
