@@ -3,8 +3,6 @@ share: true
 title: Scoop & Co
 category: wiki3
 description: Using Scoop (and other Package Managers) to configure my system
-hero: The 'Scoop' on my personal machine build...
-date: 2020-02-04
 authors:
     - Rohan Cragg
 og_title: The 'Scoop' on my personal machine build...
