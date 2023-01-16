@@ -1,4 +1,4 @@
-site_name:  pit-blog 🔰 |
+site_name:  Peter Hanzo 🔰
 site_description: все самое лучшее
 copyright: Made with ❤️ by +++.
 site_url: https://lovely-blini-8cc43b.netlify.app/
@@ -129,7 +129,12 @@ plugins:
 # P
   - ezlinks:
         wikilinks: true
-  - social
+  - social:
+      cards: !ENV [CARDS, true]
+      cards_font: Noto Sans SC
+      cards_color:
+        fill: "#0FF1CE" 
+        text: "#FFFFFF"
   - tags
   - awesome-pages
   - embed_file:
