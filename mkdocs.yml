@@ -136,6 +136,8 @@ plugins:
         fill: "#0FF1CE" 
         text: "#FFFFFF"
   - tags
+      enabled: !ENV [CI, false]
+      tags_file: tags.md
   - awesome-pages
   - embed_file:
       callouts: true
