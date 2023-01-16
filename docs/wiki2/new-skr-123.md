@@ -74,7 +74,6 @@ __жирный__
 🔹 Если какие-то из этих ролей не представлены, это 
 
 
-<iframe width="100%" height="300" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZo83dhaNdSoqUC4i-yfhlBZuBB31ON3UyJmNg2FGxlVgNLD7xi6fGA1ryt8pZkOla3yMzUu_dCjag/pubhtml?gid=1187255135&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
 
@@ -96,13 +95,7 @@ You can also use words, to fit your writing style more closely[^note].
 
 вапвапвапва[^3]
 
-
-другое расположение картинки
-<img src="https://miro.medium.com/max/1100/1*vLFP9lKrCOzqIY20aEbTZA.png" width=200px height=200px>
-
-
-
-
+что сделал и что не сделал что не удалось
 - [x] #739 ♦
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [x] Add delight to the experience when all tasks are complete :tada:
@@ -124,7 +117,7 @@ You can also use words, to fit your writing style more closely[^note].
 кликабельная картинка или видео
 
 <a href="https://jeffreytse.net/
-" target="_blank"><img src="http://i3.ytimg.com/vi/OOxL-r1L334/hqdefault.jpg" 
+" target="_blank"><img src="https://i3.ytimg.com/vi/OOxL-r1L334/hqdefault.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="300" border="0" /></a>
 
 
@@ -135,26 +128,20 @@ alt="IMAGE ALT TEXT HERE" width="240" height="300" border="0" /></a>
 
 
 
-ссылка на конкретную страницу в пдф
-[Osnovy_Teorii_Ogranichenij_Cohen_Fedurko_01-10-2012](../_Files_/Osnovy_Teorii_Ogranichenij_Cohen_Fedurko_01-10-2012 1.pdf)
 
 
-
-
-
-# 🟠изучить
+# изучить
 
 # ▪ изучить
-# ▫ изучить ⛔
-# изучить 🔥💥🚩
-# ♦ изучить
+# ▫ осторожно ⛔
+# нове  🔥
+достижения 🚩
+
 # важно ⚡
-# изучить
-# ⭐изучить
+# ⭐избранное 
 ## книги 📗
-## изучить
-## ✅ изучить
-## изучить 🕒
+## ✅ сделано
+## время 🕒
 ## напоминание 🔔
 ## ▫ пункт
 ## идея  и совет 💡
@@ -163,15 +150,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="300" border="0" /></a>
 ## 🔻 раскрыть
 	
 
-
-<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
-
-
 <span style="color:blue">some *blue* text</span>.
-
-https://jeffreytse.net/
-
 
 
 <figure markdown>
@@ -180,7 +159,6 @@ https://jeffreytse.net/
 
 
 # лучшее
-[Hover me](https://example.com "I'm a tooltip!")
 
 :octicons-heart-fill-24:{ .heart }
 
@@ -196,6 +174,7 @@ https://jeffreytse.net/
 #### metadata
 
 - Type:: #123
+
 - Status:: #edit 
 - Location:: #пк
 - Project:: 
@@ -209,7 +188,7 @@ ____________
 
 
 
-[`name`](#+pop){ #+pop }
+[`pop`](#+pop){ #+pop }
 
 
 
@@ -255,10 +234,7 @@ ____________
 
 
 
-<iframe src="https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&profile=1" width="640" height="700" frameborder="0" scrolling="no"></iframe>
 
-
-<iframe src="https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r" width="640" height="600" frameborder="0" scrolling="no"></iframe>
 
 
 
