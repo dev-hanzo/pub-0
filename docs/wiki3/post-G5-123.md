@@ -6,6 +6,7 @@ description: лучшее описание
 hide:
   - footer
 image: _Files_/Pasted%20image%2020221224070649.png
+hero: The 'Scoop' on my personal machine build...
 ---
 
 [таблица](../_Files_/223.csv)

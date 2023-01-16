@@ -2,10 +2,8 @@
 share: true
 title: new skr 123
 category: wiki2
+page_path: docs/
 og_image: _Files_/pic-1.svg
-tags:
-  - #git
-  - #web-server
 ---
 
 # skr1
@@ -256,11 +254,13 @@ ____________
 > [!bug] чем я недоволен
 
 
-> [!TIP] Метадата
+> [!TIP]+ Метадата
+><script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="ba_sa_materials/577" data-width="100%"></script>
 
 
 
-<iframe src="https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+<script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="ba_sa_materials/577" data-width="100%"></script>
+
 
 
 
