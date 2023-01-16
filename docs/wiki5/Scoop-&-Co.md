@@ -4,13 +4,13 @@ title: Scoop & Co
 category: wiki5
 description: Using Scoop (and other Package Managers) to configure my system
 og_title: The 'Scoop' on my personal machine build...
+page_path: docs/
 og_image: _Files_/pic-1.svg
 hide:
   - footer
-date: 2022-11-01
 tags:
-  - git
-  - web server
+  - #git
+  - #web-server
   - letsencrypt
   - markdown
   - mkdocs
