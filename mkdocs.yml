@@ -1,6 +1,6 @@
-site_name: 🔰 pit-blog
+site_name:  pit-blog 🔰 |
 site_description: все самое лучшее
-copyright: Made with ❤️ by Karan +++.
+copyright: Made with ❤️ by +++.
 site_url: https://lovely-blini-8cc43b.netlify.app/
 repo_name: peter-hanzo/sepia/
 repo_url: https://github.com/peter-hanzo/sepia/
@@ -129,7 +129,9 @@ plugins:
 # P
   - ezlinks:
         wikilinks: true
-  - mermaid2
+  - social
+  - tags:
+        tags_file: en/blog/index.md
   - awesome-pages
   - embed_file:
       callouts: true
