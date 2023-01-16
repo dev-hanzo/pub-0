@@ -1,4 +1,5 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
+
 {% block extrahead %}
     {% if page and page.meta and page.meta.og_title %}
         <meta property="og:title" content="{{ page.meta.og_title }}" />
@@ -36,8 +37,4 @@
 
     <meta property="og:locale" content="en-GB" />
     <meta property="fb:app_id" content="{{ config.fb_appid }}" />
-
-
-
-{% block analytics %}
 {% endblock %}
