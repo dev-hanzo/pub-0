@@ -130,8 +130,7 @@ plugins:
   - ezlinks:
         wikilinks: true
   - social
-  - tags:
-        tags_file: docs\index_t.md
+  - tags
   - awesome-pages
   - embed_file:
       callouts: true
