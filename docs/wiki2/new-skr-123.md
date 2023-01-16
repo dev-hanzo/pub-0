@@ -206,15 +206,7 @@ ____________
 
 
 > [!warning]-
-> Type:: #ttt
-> Status:: #edit 
-> Location:: #пк
-> 
-> Project:: 
-> 
-> Topic:: 
-> Back link:: [Техники `BA`](../../Техники%20`BA`.md)
-> Source::
+
 
 
 
@@ -225,14 +217,44 @@ ____________
 > Lorem ipsum dolor sit amet
 
 
-> [!TIP] Callouts can have custom titles, which also supports ==markdown==!
+
+> [!abstract] метадата
+> Type:: #ttt
+> Status:: #edit 
+> Location:: #пк
+> 
+> Project:: 
+> 
+> Topic:: 
+> Back link:: [Техники `BA`](../../Техники%20`BA`.md)
+> Source:: 
+
+> [!info] ссылки
+
+
+> [!success] что успел и чего не успел
+
+
+> [!question] мои советы 
+
+
+> [!failure]- мои ошибки
+> 1. не ходить а ехать
+
+> [!danger] Лучше не делать
+>  - песто 1
+>  - тесто 2
 
 
 
+> [!warning] Важные мелочи
 
->[!FAQ]+ новое111
-> - текст 1 
-> - It supports **markdown** and [wikilinks](Internal%20link).
+> [!bug] чем я недоволен
+
+
+> [!TIP] Метадата
+
+
 
 <iframe src="https://www.komoot.com/tour/829959589/embed?share_token=aNeL6qhp8s0h4NHd63KYDhoOpkM6QTt8AiyskdfSQR488sWR3r&profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
 
