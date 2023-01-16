@@ -71,7 +71,6 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight
-      anchor_linenums: true
   - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.tabbed
@@ -132,7 +131,7 @@ plugins:
         wikilinks: true
   - social
   - tags:
-        tags_file: en/blog/index.md
+        tags_file: docs\index_t.md
   - awesome-pages
   - embed_file:
       callouts: true
