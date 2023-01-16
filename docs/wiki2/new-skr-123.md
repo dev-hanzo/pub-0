@@ -3,6 +3,9 @@ share: true
 title: new skr 123
 category: wiki2
 og_image: _Files_/pic-1.svg
+tags:
+  - #git
+  - #web-server
 ---
 
 # skr1
