@@ -10,8 +10,8 @@ site_dir: ./site
 # P
 theme:
     name: material
-    logo: assets/logo2.svg
-    favicon: assets/logo2.svg
+    logo: assets/logo2.png
+    favicon: assets/logo2.png
     custom_dir: overrides
     font:
       text: Inter
