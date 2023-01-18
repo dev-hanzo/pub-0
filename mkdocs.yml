@@ -1,17 +1,15 @@
-site_name:  Peter Hanzo
+site_name: pit-blog
 site_description: все самое лучшее
-copyright: Made with ❤️ by +++.
-site_url: https://lovely-blini-8cc43b.netlify.app/
+copyright: Made with ❤️ by Karan +++.
+site_url: https://sepia123.netlify.app/
 repo_name: peter-hanzo/sepia/
-repo_url: https://github.com/peter-hanzo/pub-2/
+repo_url: https://github.com/peter-hanzo/sepia/
 edit_uri: edit/main/docs/
 docs_dir: ./docs
 site_dir: ./site
 # P
 theme:
     name: material
-    logo: assets/logo2.png
-    favicon: assets/logo2.png
     custom_dir: overrides
     font:
       text: Inter
@@ -38,8 +36,8 @@ theme:
       # Dark mode    
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: orange
+      primary: blue grey
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -52,7 +50,6 @@ theme:
         - navigation.indexes
         - navigation.top
         - toc.follow
-        - content.tooltips
 # P
 
 # P
@@ -67,15 +64,12 @@ markdown_extensions:
   - attr_list
   - footnotes
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.emoji
   - pymdownx.highlight
   - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.tasklist
-  - pymdownx.snippets
 # P
   - footnotes
   - nl2br
@@ -84,8 +78,6 @@ markdown_extensions:
   - tables
   - mdx_breakless_lists
   - def_list
-  - md_in_html
-  - abbr
 # P
   - pymdownx.arithmatex:
       generic: true
@@ -118,8 +110,6 @@ markdown_extensions:
 # P
   - toc:
       permalink: true
-      permalink_title: Anchor link to this section for reference
-      title: On this page
 # P
 # Pl
 plugins:
@@ -129,12 +119,7 @@ plugins:
 # P
   - ezlinks:
         wikilinks: true
-  - social:
-      cards: !ENV [CARDS, true]
-      cards_font: Noto Sans SC
-      cards_color:
-        fill: "#0FF1CE" 
-        text: "#FFFFFF"
+  - mermaid2
   - awesome-pages
   - embed_file:
       callouts: true
@@ -157,7 +142,6 @@ hooks:
 extra_javascript:
   - assets/js/mathjax.js
   - assets/js/utils.js
-  - assets/js/wiki_hover.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
@@ -183,8 +167,8 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/mrkaran_
 # P
-  generator: true
-  SEO: assets/logo2.png
+  generator: false
+  SEO: assets/meta/SEO.png
   blog_list:
     pagination: true
     pagination_message: true
