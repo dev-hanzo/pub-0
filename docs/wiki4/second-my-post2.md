@@ -9,6 +9,6 @@ category: wiki4
 
 ![eeee | center | 200](../_Files_/pic-1.svg)
 
-![new post](../wiki3/post-G5-123.md#top1)
+![new post](../wiki3/boolean,-date,-duration,-file-link.md#top1)
 
 
