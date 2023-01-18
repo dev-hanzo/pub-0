@@ -1,8 +1,8 @@
 ---
 share: true
-title: post G5 123
+title: boolean, date, duration, file link
 category: wiki3
-description: лучшее описание
+description: лучшее описание из description
 hide:
   - footer
 image: _Files_/Pasted%20image%2020221224070649.png
