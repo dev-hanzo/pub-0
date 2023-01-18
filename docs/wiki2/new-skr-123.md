@@ -8,8 +8,8 @@ og_image: _Files_/pic-1.svg
 
 # skr1
 
-https://t.me/c/1686432091/20869embed=1
-https://t.me/c/1686432091/20869
+⛔⛔⛔⛔⛔⛔⛔
+
 
 
 <script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="foranalysts/4960" data-width="100%"></script>
