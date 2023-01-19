@@ -1,6 +1,6 @@
 click==7.1.2
 csscompressor==0.9.5
-future==0.18.2
+future==0.18.3
 ghp-import==2.1.0
 htmlmin==0.1.12
 importlib-metadata==4.12.0
