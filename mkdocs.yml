@@ -53,6 +53,7 @@ theme:
         - navigation.indexes
         - navigation.top
         - navigation.tracking
+        
         - toc.follow
         - announce.dismiss
         - content.code.copy
@@ -86,6 +87,15 @@ markdown_extensions:
   - tables
   - mdx_breakless_lists
   - def_list
+  - md_in_html
+  - abbr
+  
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
 # P
   - pymdownx.arithmatex:
       generic: true
@@ -101,12 +111,7 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.tasklist:
        custom_checkbox: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      options:
-        custom_icons:
-          - overrides/.icons
+
 # P
   - pymdownx.inlinehilite
   - pymdownx.snippets
@@ -129,6 +134,11 @@ plugins:
 # P
   - ezlinks:
         wikilinks: true
+  - social:
+      cards_font: Noto Sans SC
+      cards_color:
+        fill: "#0FF1CE" 
+        text: "#FFFFFF"
   - mermaid2
   - awesome-pages
   - embed_file:
@@ -184,15 +194,15 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/c/dirigibleio
 # P
-  generator: false
-  SEO: assets/meta/SEO.png
+  generator: true
+  SEO: assets/logo2.png
   blog_list:
     pagination: true
     pagination_message: true
     pagination_translation: 'posts in'
   hooks:
-    strip_comments: true
-    fix_heading: true
+    strip_comments: false
+    fix_heading: false
 
 nav:
     - Home: index.md
