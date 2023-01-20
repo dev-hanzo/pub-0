@@ -53,7 +53,6 @@ theme:
         - navigation.indexes
         - navigation.top
         - navigation.tracking
-        
         - toc.follow
         - announce.dismiss
         - content.code.copy
@@ -204,7 +203,7 @@ extra:
     strip_comments: false
     fix_heading: false
 
-nav:
-    - Home: index.md
-    - First page: index2.md
-    - ...
+#nav:
+#    - Home: index.md
+#    - First page: index2.md
+#    - ...
