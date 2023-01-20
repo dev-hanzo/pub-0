@@ -1,10 +1,10 @@
 ---
 share: true
 title: new skr 123
-category: wiki2
-page_path: docs/
-og_image: _Files_/739.png
 og_title: The 'Scoop' 
+description: лучшее описание из description
+category: wiki2
+og_image: _Files_/739.png
 ---
 
 # skr1
