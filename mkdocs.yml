@@ -11,8 +11,8 @@ site_dir: ./site
 # P
 theme:
     name: material
-    logo: assets/logo2.png
-    favicon: assets/logo2.png
+    logo: assets/ava-40.svg
+    favicon: assets/ava-gol-favicon.png
     custom_dir: overrides
     font:
       text: Inter
