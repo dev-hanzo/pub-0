@@ -23,7 +23,7 @@ description: лучшее описание из description
 # skr4
 
 -----------------------------
-
+![](../_Files_/0e9eb07ed8dc2bc2f1f35ebdcaea1439.png)
 
 - список
 	- два 
