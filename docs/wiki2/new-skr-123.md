@@ -3,7 +3,7 @@ share: true
 title: new skr 123
 category: wiki2
 page_path: docs/
-og_image: _Files_/Pasted%20image%2020221227093739.png
+og_image: _Files_/739.png
 og_title: The 'Scoop' 
 ---
 
@@ -12,7 +12,6 @@ og_title: The 'Scoop'
 ⛔⛔⛔⛔⛔⛔⛔
 
 <i class="fa-regular fa-circle-xmark"></i>
-![ууууу|400](../_Files_/739.png)
 
 
 <script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="foranalysts/4960" data-width="100%"></script>
@@ -21,7 +20,7 @@ og_title: The 'Scoop'
 
 ![кккккк|200](../_Files_/pic-1.svg)
 
-![кккккк|200](../_Files_/739.png)
+
 # skr4
 
 -----------------------------
