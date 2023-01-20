@@ -1,7 +1,6 @@
 ---
 share: true
 title: new skr 123
-og_title: The 'Scoop' 
 category: wiki2
 description: описание  description222
 ---
