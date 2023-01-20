@@ -39,12 +39,12 @@ hero: The 'Scoop' on my personal machine build...
 
 # top1
 
-[post 4](../wiki4/second-my-post2.md)
+[post 4](../../Scoop%20&%20Co.md)
 
 
 # top2
 
-![post 4](../wiki4/second-my-post2.md#soft1)
+![post 4](../../Scoop%20&%20Co.md#soft1)
 
 
 
