@@ -39,25 +39,28 @@ theme:
       # Dark mode    
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: indigo
+      primary: indigo
+      accent: orange
       toggle:
         icon: material/weather-night
         name: Switch to light mode
 # P
       features:
-        - navigation.instant
         - search.share
         - search.highlight
         - search.suggest     
-        - navigation.indexes
-        - navigation.top
-        - navigation.tracking
-        - toc.follow
         - announce.dismiss
         - content.code.copy
         - content.action.edit
+        - content.action.view
         - header.autohide
+        - navigation.instant
+        - navigation.indexes
+        - navigation.sections
+        - navigation.tabs
+        - navigation.top
+        - navigation.tracking
+        - toc.follow
 # P
 
 # P
