@@ -3,8 +3,6 @@ share: true
 title: new skr 123 
 category: wiki2
 description: из description
-Data: 06-09-2022
-Author: han111
 ---
 
 # первое
