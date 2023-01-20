@@ -1,4 +1,4 @@
-site_name: pit-blog
+site_name: PETER HANZO
 site_description: все самое лучшее
 site_author: Peter
 copyright: Made with ❤️ +++.
@@ -61,7 +61,6 @@ theme:
         - navigation.top
         - navigation.tracking
         - toc.follow
-# P
 
 # P
       include_search_page: true
