@@ -46,21 +46,21 @@ theme:
         name: Switch to light mode
 # P
       features:
-        - search.share
-        - search.highlight
-        - search.suggest     
-        - announce.dismiss
-        - content.code.copy
-        - content.action.edit
-        - content.action.view
-        - header.autohide
-        - navigation.instant
-        - navigation.indexes
-        - navigation.sections
-        - navigation.tabs
-        - navigation.top
-        - navigation.tracking
-        - toc.follow
+      - navigation.tabs.sticky
+      - navigation.sections
+      - navigation.expand
+      - navigation.indexes
+      - toc.follow
+      - toc.integrate
+      - content.action.edit
+      - content.action.view
+      - content.code.copy
+      - search.share
+      - search.highlight
+      - search.suggest
+      - navigation.instant
+      - navigation.tracking
+        
 
 # P
       include_search_page: true
