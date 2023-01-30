@@ -1,13 +1,22 @@
 ---
 share: true
+title: Index2
+category:
+description: 11111111нот
+hide:
+  - navigation
+  - toc
+---
 ---
 
+
+# Обо мне
 ## pet++++++++++++
 
 ⚡⚡⚡⚡⚡⚡⚡⚡
 кукукук
 
-![](_Files_/Recording%2020230108180809.webm)
+![](./_Files_/Recording 20230108180809.webm)
 
-![pic|200](_Files_/envelope-regular%201.svg)
+![pic|200](./_Files_/pic-1.svg)
 

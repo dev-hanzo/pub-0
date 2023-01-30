@@ -1,7 +1,13 @@
 ---
 share: true
+title: Index
+category:
+description: Blog about my
+hide:
+  - navigation
+  - toc
 ---
-## Karan's Programming Notes++++
+---
+peter ++++
 
-Collection of short snippets, notes and TILs about things related to Programming Languages, Linux, DevOps tools, etc.
 
