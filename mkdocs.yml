@@ -205,3 +205,6 @@ extra:
     strip_comments: false
     fix_heading: false
 
+nav:
+    - Home: index.md
+    - First page: index2.md
