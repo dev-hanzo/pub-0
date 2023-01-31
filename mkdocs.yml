@@ -49,6 +49,8 @@ theme:
       - navigation.sections
       - navigation.expand
       - navigation.indexes
+      - navigation.instant
+      - navigation.tracking
       - toc.follow
       - toc.integrate
       - content.action.edit
@@ -57,9 +59,7 @@ theme:
       - search.share
       - search.highlight
       - search.suggest
-      - navigation.instant
-      - navigation.tracking
-        
+
 
 # P
       include_search_page: true
@@ -208,3 +208,4 @@ extra:
 nav:
     - Home: index.md
     - First page: index2.md
+    - ...
