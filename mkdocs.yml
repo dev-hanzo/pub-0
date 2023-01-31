@@ -124,8 +124,10 @@ markdown_extensions:
 # Pl
 plugins:
   - search
-#  - tags:
-#      tags_file: tags.md
+  
+  - tags:
+      tags_file: 'tag/tags.md'
+      
   - minify:
       minify_html: true
 # P
