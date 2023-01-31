@@ -46,13 +46,10 @@ theme:
 # P
       features:
       - navigation.tabs.sticky
-      - navigation.sections
-      - navigation.expand
       - navigation.indexes
       - navigation.instant
       - navigation.tracking
       - toc.follow
-      - toc.integrate
       - content.action.edit
       - content.action.view
       - content.code.copy
