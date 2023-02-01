@@ -1,7 +1,7 @@
 site_name: PETER HANZO
 site_description: все самое лучшее
 copyright: Made with ❤️ +++.
-site_url: https://peter-hanzo.net/
+site_url: https://sepia123.netlify.app/
 repo_name: peter-hanzo/pub-0/
 repo_url: https://github.com/peter-hanzo/pub-0/
 edit_uri: edit/main/docs/
@@ -65,6 +65,7 @@ theme:
 # Extensions
 markdown_extensions:
   - admonition
+  - md_in_html              
   - codehilite
   - meta
   - attr_list
@@ -84,14 +85,8 @@ markdown_extensions:
   - tables
   - mdx_breakless_lists
   - def_list
-#  - md_in_html
-#  - abbr
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      options:
-        custom_icons:
-          - overrides/.icons
+  - abbr
+
 # P
   - pymdownx.arithmatex:
       generic: true
@@ -107,6 +102,12 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.tasklist:
        custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
 # P
   - pymdownx.inlinehilite
   - pymdownx.snippets
@@ -129,9 +130,6 @@ plugins:
   - literate-nav:
       nav_file: SUMMARY.md
 
-      
-      
-      
   - minify:
       minify_html: true
 # P
@@ -197,4 +195,4 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/c/dirigibleio
 # P
-  generator: true
+  generator: false
