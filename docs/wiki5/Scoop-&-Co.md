@@ -24,6 +24,15 @@ description: лучшее описание
 <script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="callneginsky/1249" data-width="100%"></script>
 
 
-
+  <footer>
+    <hr>
+    <a href="ссылка" title="Become a sponsor">
+      <span class="twemoji heart-throb-hover">
+        {% set icon = "octicons/heart-fill-16" %}
+        {% include ".icons/" ~ icon ~ ".svg" %}
+      </span>
+    </a>
+    <hr>
+  </footer>
 
 
