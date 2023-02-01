@@ -1,8 +1,7 @@
 site_name: PETER HANZO
 site_description: все самое лучшее
-site_author: Peter
 copyright: Made with ❤️ +++.
-site_url: https://peter-hanzo.net/
+site_url: https://sepia123.netlify.app/
 repo_name: peter-hanzo/pub-0/
 repo_url: https://github.com/peter-hanzo/pub-0/
 edit_uri: edit/main/docs/
@@ -47,20 +46,17 @@ theme:
 # P
       features:
       - navigation.tabs.sticky
-      - navigation.sections
-      - navigation.expand
       - navigation.indexes
+      - navigation.instant
+      - navigation.tracking
       - toc.follow
-      - toc.integrate
       - content.action.edit
       - content.action.view
       - content.code.copy
       - search.share
       - search.highlight
       - search.suggest
-      - navigation.instant
-      - navigation.tracking
-        
+
 
 # P
       include_search_page: true
@@ -128,8 +124,16 @@ markdown_extensions:
 # Pl
 plugins:
   - search
-#  - tags:
-#      tags_file: tags.md
+  
+  - tags:
+      tags_file: Notes/tags.md
+      
+  - literate-nav:
+      nav_file: SUMMARY.md
+
+      
+      
+      
   - minify:
       minify_html: true
 # P
@@ -197,16 +201,3 @@ extra:
       link: https://www.youtube.com/c/dirigibleio
 # P
   generator: true
-  SEO: assets/logo2.png
-  blog_list:
-    pagination: true
-    pagination_message: true
-    pagination_translation: 'posts in'
-  hooks:
-    strip_comments: false
-    fix_heading: false
-
-#nav:
-#    - Home: index.md
-#    - First page: index2.md
-#    - ...

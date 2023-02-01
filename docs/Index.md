@@ -1,11 +1,15 @@
 ---
-share: true
-title: Index
-category:
-description: Blog about my
-
+hide:
+  - navigation
 ---
----
-peter ++++
 
+# 🔰 Start
 
+## прото
+
+плрпдрпдорпорплрпдо
+
+# gjjjjll
+## про
+
+орпорор

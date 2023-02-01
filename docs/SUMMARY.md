@@ -1,0 +1,5 @@
+* [старт](index.md)
+* [hiki](Hiking/)
+* [Borgs](Hiking/index.md)
+    * [Bar](Notes/tags.md)
+    * [Foo](borgs/foo.md)

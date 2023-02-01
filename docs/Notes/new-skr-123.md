@@ -1,8 +1,14 @@
 ---
 share: true
 title: new skr 123
+og_title: The 'Scoop' 
 category: wiki2
 description: описание  description222
+tags:
+  - HTML5
+  - JavaScript
+  - CSS
+  - редакторы
 ---
 
 # первое
@@ -255,10 +261,12 @@ ____________
 > <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=14.465005695819857%2C45.32756626493193%2C14.46918457746506%2C45.32927471428796&amp;layer=mapnik&amp;marker=45.32842049605121%2C14.467095136642456" style="border: 1px solid black; width: 100%; height: 25rem"></iframe>
 
 
-> [!TIP]- Метадата
+> [!TIP]+ Метадата
 ><script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="ba_sa_materials/577" data-width="100%"></script>
 
 
+
+<script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-post="ba_sa_materials/577" data-width="100%"></script>
 
 
 
