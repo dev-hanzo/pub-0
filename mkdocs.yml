@@ -1,8 +1,7 @@
-site_name:  PETER HANZO
+site_name: PETER HANZO
 site_description: все самое лучшее
-site_author: Peter
-copyright: Made  | Copyright &copy; 2014 - 2023 <a href="https://github.com/facelessuser"  target="_blank" rel="noopener">Isaac Muse</a>
-site_url: https://pub-1.pages.dev/
+copyright: Made with ❤️ +++.
+site_url: https://peter-hanzo.net/
 repo_name: peter-hanzo/pub-0/
 repo_url: https://github.com/peter-hanzo/pub-0/
 edit_uri: edit/main/docs/
@@ -12,7 +11,7 @@ site_dir: ./site
 theme:
     name: material
     logo: assets/ava-40.svg
-    favicon: assets/log-seo.png
+    favicon: assets/ava-gol-favicon.png
     custom_dir: overrides
     font:
       text: Inter
@@ -20,7 +19,11 @@ theme:
       # Noto Sans, Spectral, -apple-system, Inter,Helvetica Neue,Helvetica, Roboto
       # IMB Plex Mono, Cascadia, Roboto Mono
     language: en
-
+    shortcuts:
+      next: 78 # n
+      previous: 80 # p
+      search: 83 # s
+      
     palette:
       # P
       # Light mode
@@ -42,19 +45,17 @@ theme:
         name: Switch to light mode
 # P
       features:
-      - navigation.indexes
       - navigation.tabs.sticky
-      - navigation.top      
+      - navigation.indexes
       - navigation.instant
-      - navigation.tracking     
+      - navigation.tracking
       - toc.follow
-
       - content.action.edit
       - content.action.view
+      - content.code.copy
       - search.share
       - search.highlight
       - search.suggest
-
 
 
 # P
@@ -85,7 +86,6 @@ markdown_extensions:
   - def_list
   - md_in_html
   - abbr
-  - glightbox
   
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -120,8 +120,6 @@ markdown_extensions:
 # P
   - toc:
       permalink: true
-      title: On this page444444
-      toc_depth: 5
 # P
 # Pl
 plugins:
@@ -129,7 +127,7 @@ plugins:
   
   - tags:
       tags_file: 'tag/tags.md'
-    
+      
   - minify:
       minify_html: true
 # P
@@ -195,36 +193,18 @@ extra:
       link: https://www.linkedin.com/groups/8413366
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/c/dirigibleio
-
-    - icon: fontawesome/brands/instagram
-      link: https://www.youtube.com/c/dirigibleio
-    - icon: fontawesome/brands/product-hunt
-      link: https://www.youtube.com/c/dirigibleio
-
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:<rur@tut.by>
-      
-      
-      
 # P
   generator: true
-
+  SEO: assets/logo2.png
+  blog_list:
+    pagination: true
+    pagination_message: true
+    pagination_translation: 'posts in'
   hooks:
     strip_comments: false
     fix_heading: false
-    
-
-
 
 nav:
-    - Home: 'tag/tags.md'
-    - First page: 'wiki5/Scoop-&-Co.md'
+    - Home: index.md
+    - First page: index2.md
     - ...
-#nav:
-# - Home: index.md
-# - Section:
-#    - wiki2/tag123.md
-#    - Page 1: wiki3/word-post-123.md
-# - ...
-# - contact: wiki5/Scoop-&-Co.md
-# - Downloads: 'https://downloads.dirigible.io'
