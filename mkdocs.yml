@@ -1,7 +1,7 @@
 site_name: PETER HANZO
 site_description: все самое лучшее
 copyright: Made with ❤️ +++.
-site_url: https://sepia123.netlify.app/
+site_url: https://pub-0.pages.dev/
 repo_name: peter-hanzo/pub-0/
 repo_url: https://github.com/peter-hanzo/pub-0/
 edit_uri: edit/main/docs/
@@ -45,17 +45,17 @@ theme:
         name: Switch to light mode
 # P
       features:
-      - navigation.indexes
-      - navigation.tabs.sticky
-      - navigation.top      
-      - navigation.instant
-      - navigation.tracking
-      - toc.follow
-      - content.action.edit
-      - content.action.view
-      - search.share
-      - search.highlight
-      - search.suggest
+        - navigation.indexes
+        - navigation.tabs.sticky
+        - navigation.top      
+        - navigation.instant
+        - navigation.tracking
+        - toc.follow
+        - content.action.edit
+        - content.action.view
+        - search.share
+        - search.highlight
+        - search.suggest
 
 
 # P
