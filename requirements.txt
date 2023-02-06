@@ -28,6 +28,7 @@ mkdocs-embed-external-markdown==2.3.0
 mkdocs-exclude-search==0.6.4
 mkdocs-ezlinks-plugin==0.1.14
 mkdocs-material-extensions==1.1
+mkdocs-exclude
 
 mkdocs-preview-links-plugin==0.6.2
 mkdocs-embed-file-plugins==2.0.2
