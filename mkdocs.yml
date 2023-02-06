@@ -186,7 +186,6 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
   
-  disqus: "vuquangtrong-github-io"
   
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer
   social:
@@ -201,7 +200,10 @@ extra:
       name: vqtrong
   generator: false # hide the line "Made with Material for MkDocs"
 
-#
+  hooks:
+    strip_comments: false
+    fix_heading: false
+    
 # Custom styles and scripts
 #
 extra_css:
@@ -213,3 +215,4 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - assets/view-bigimg.js
   - assets/extra.js
+
