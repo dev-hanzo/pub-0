@@ -44,7 +44,7 @@
     {% endif %}
 
     {# title #}
-    <h1 class="page-title"> {{ page_title | d(config.site_name, false) }} </h1>
+    <h1 class="page-title">   {% if page.meta.title %} </h1>
 
     {# description #}
     {% if page.meta.description %}
