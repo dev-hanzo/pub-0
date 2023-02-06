@@ -3,7 +3,7 @@
 # vuquangtrong.github.io (aka codeinsideout.com)
 #
 site_name: Code Inside Out
-site_url: https://www.codeinsideout.com/ # must have the trailing slash
+site_url: https://pub-0.pages.dev/ # must have the trailing slash
 site_author: Vũ Quang Trọng (vuquangtrong@gmail.com)
 site_description: Guides, notes and useful stuff for learning embedded systems.
 copyright: > # should remain a link to the original theme
