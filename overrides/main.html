@@ -1,3 +1,11 @@
+{# page info #}
+{% set page_title = '' %}
+{% if page and page.meta and page.meta.title %}
+    {% set page_title = page.meta.title %}
+{% elif page and page.title and not page.is_homepage %}
+    {% set page_title = page.title %}
+{% endif %}
+
 
 {% extends "base.html" %} 
 
