@@ -1,198 +1,220 @@
-site_name: PETER HANZO
-site_description: все самое лучшее
-copyright: Made with ❤️ +++.
-site_url: https://sepia123.netlify.app/
-repo_name: peter-hanzo/pub-0/
-repo_url: https://github.com/peter-hanzo/pub-0/
-edit_uri: edit/main/docs/
-docs_dir: ./docs
-site_dir: ./site
-# P
+#
+# Code Inside Out
+# vuquangtrong.github.io (aka codeinsideout.com)
+#
+site_name: Code Inside Out
+site_url: https://www.codeinsideout.com/ # must have the trailing slash
+site_author: Vũ Quang Trọng (vuquangtrong@gmail.com)
+site_description: Guides, notes and useful stuff for learning embedded systems.
+copyright: > # should remain a link to the original theme
+  &copy; 2020-2022 Code Inside Out<br>
+  <a href="https://github.com/vuquangtrong/mkdocs-material-blog">Blog Theme</a> /
+  <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
+
+#
+# Theme settings
+#
 theme:
-    name: material
+  # https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
+  name: material
 
+  # https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
+  custom_dir: overrides
 
-    custom_dir: overrides
-    font:
-      text: Inter
-      code: Roboto Mono
-      # Noto Sans, Spectral, -apple-system, Inter,Helvetica Neue,Helvetica, Roboto
-      # IMB Plex Mono, Cascadia, Roboto Mono
-    language: en
-    shortcuts:
-      next: 78 # n
-      previous: 80 # p
-      search: 83 # s
-      
-    palette:
-      # P
-      # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-      # P       
-      # Dark mode    
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: orange
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-# P
-      features:
-        - navigation.indexes
-        - navigation.tabs.sticky
-        - navigation.top      
-        - navigation.instant
-        - navigation.tracking
-        - toc.follow
-        - content.action.edit
-        - content.action.view
-        - search.share
-        - search.highlight
-        - search.suggest
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+  palette:
+    primary: white
+    accent: deep orange
 
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
+  font:
+    text: Noto Serif
+    code: Roboto Mono
 
-# P
-      include_search_page: true
-      search_index_only: true
-# P
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
+  icon:
+    logo: fontawesome/solid/code
+  favicon: favicon.png
+
+  features:
+    # Navigation
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+    # - navigation.instant # some features may not work properly with XHR
+    - navigation.tracking # the URL changes with the active anchor
+    - navigation.tabs # first top-level folders are shown as tabs
+    # - navigation.tabs.sticky # tabs always show
+    # - navigation.sections # second-level folders are expanded
+    # - navigation.expand # all folders are expanded
+    - navigation.indexes # link an index page to its parent folder
+    - navigation.top # show the back-to-top button
+    # - toc.integrate # show the table of contents in the navigation panel
+    
+    # Search
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
+    - search.suggest # display the likeliest completion for the last word
+    - search.highlight # highlight all occurrences
+    - search.share # show a share button of the current search
+
+    # Header
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/
+    # - header.autohide # hide the post title when scroll down
+
+    # Content
+    # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations
+    - content.code.annotate # add comment to code blocks
+    - content.tabs.link # link tabs with the same label
+
+#
+# Plugins
+#
+plugins:
+  - search # must be included at the first place
+  # - tags: # we have our own internal tag feature
+        # tags_file: tags.md # generated links do not work
+  - awesome-pages:
+      # collapse_single_pages: true # replaced by navigation.indexes
+  # - section-index # must be after awesome-pages, replaced by navigation.indexes
+  - git-revision-date-localized:
+        enable_creation_date: true
+        fallback_to_build_date: true
+        type: iso_date
+  - encryptcontent:
+        hljs: false
+        arithmatex: false
+        mermaid2: false
+        password_button: true
+        remember_password: true
+        default_expire_dalay: 24
+        # reload_scripts:
+            # - "./assets/extra.js"
+  - exclude:
+        glob:
+          - '*/exclude/*'
+        regex:
+          - '.*\[exclude\].*'
+  # - pdf-with-js:
+        # enable: false # should enable only when need PDF files
+        # add_download_button: false
+        # display_header_footer: true
+        # header_template: >-
+            # <div style="font-size:8px; margin:auto; color:lightgray;">
+                # <span class="title"></span>
+            # </div>
+        # footer_template: >-
+            # <div style="font-size:8px; margin:auto; color:lightgray;">
+                # Page <span class="pageNumber"></span> of 
+                # <span class="totalPages"></span>
+            # </div>
+
+#
 # Extensions
+#
 markdown_extensions:
-  - admonition
-  - md_in_html              
-  - codehilite
-  - meta
-  - attr_list
-  - footnotes
-  - pymdownx.details
-  - pymdownx.emoji
-  - pymdownx.highlight
-  - pymdownx.magiclink
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.tasklist
-# P
-  - footnotes
-  - nl2br
-  - sane_lists
-  - smarty
-  - tables
-  - mdx_breakless_lists
-  - def_list
-  - abbr
+  #
+  # Python Markdown
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+  #
+  - abbr # add a small tooltip to elements
+  - admonition # add call-out blocks
+  - attr_list # allow to add HTML attributes and CSS classes
+  - def_list # add description lists
+  - footnotes # define inline footnotes
+  - meta # attach arbitrary key-value pairs to a document
+  - md_in_html # allow to write Markdown inside HTML elements
+  - tables # create tables in Markdown
+  - toc: # generate a table of contents from documents
+      permalink: '#' # anchor
+      toc_depth: 4 # header 1 to header 4
+      slugify: !!python/name:pymdownx.slugs.uslugify # convert title to html-compatible text
+  - sane_lists # make better lists
+  - smarty: # convert some special characters
+      smart_angled_quotes: true
 
-# P
-  - pymdownx.arithmatex:
+  #
+  # Python Markdown Extensions
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
+  #
+  - pymdownx.arithmatex: # render math equations
       generic: true
-  - pymdownx.details
-  - pymdownx.magiclink
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.highlight:
-      use_pygments: true
-      anchor_linenums: true
-  - pymdownx.tasklist:
-       custom_checkbox: true
-  - pymdownx.emoji:
+  # - pymdownx.betterem: # improve the detection of Markup to emphasize text in Markdown
+      # smart_enable: all
+  - pymdownx.caret # define superscript
+  - pymdownx.mark # highlight text
+  - pymdownx.tilde # define subscript
+  - pymdownx.critic # track changes
+  - pymdownx.details # add collapsible call-outs
+  - pymdownx.emoji: # add inlines bundled and custom icons and emojis 
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-      options:
-        custom_icons:
-          - overrides/.icons
-# P
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
-# P
-  - toc:
-      permalink: true
-# P
-# Pl
-plugins:
-  - search
+  - pymdownx.superfences # define code blocks and nesting of code
+  - pymdownx.highlight: # highlight of code blocks
+      linenums_style: pymdownx-inline
+      # anchor_linenums: true # create anchor link on each line of code
+  - pymdownx.inlinehilite # highlight inline code blocks
+  - pymdownx.smartsymbols # convert some sequences of characters into their corresponding symbols
+  - pymdownx.snippets: #  embed content from arbitrary files into a document
+      check_paths: true
+  - pymdownx.tabbed: # group related content and code blocks under accessible tabs
+      alternate_style: true
+  - pymdownx.tasklist: # define list of task with checkbox
+      custom_checkbox: true
+  - pymdownx.escapeall:
+      hardbreak: true # use \ to create new line
+      nbsp: true # use \<space> to create &nbsp;
+  # - pymdownx.keys # syntax ++ctrl+c++ does not look clear in MD document
+  - pymdownx.progressbar
   
-  - tags:
-      tags_file: Notes/tags.md
-      
-  - literate-nav:
-      nav_file: SUMMARY.md
+  #
+  # Extra extensions
+  #
+  - markdown_captions # add caption to figures
+  - customblocks # use ::: to create a new <div>
+  - cell_row_span # merge cells in a table
+  # - kbdextension # syntax [[ctrl]][[c]] does not look clear in MD document
 
-  - minify:
-      minify_html: true
-# P
-  - ezlinks:
-        wikilinks: true
-  - social:
-      cards_font: Noto Sans SC
-      cards_color:
-        fill: "#0FF1CE" 
-        text: "#FFFFFF"
-  - mermaid2
-  - awesome-pages
-  - embed_file:
-      callouts: true
-      custom-attributes: 'assets/css/custom_attributes.css'
-      language_message: 'ERROR 404 : NOT FOUND'
-  - callouts
-  - git-revision-date-localized:
-        type: date
-        fallback_to_build_date: true
-        locale: en
-  - encryptcontent:
-      title_prefix: '🔐'
-      password_button: True
-      password_button_text: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em" width="1em"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c17.67 0 32 14.33 32 32v256c0 17.67-14.33 32-32 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c53.02 0 96-42.98 96-96V128C512 74.98 469 32 416 32zM342.6 233.4l-128-128c-12.51-12.51-32.76-12.49-45.25 0c-12.5 12.5-12.5 32.75 0 45.25L242.8 224H32C14.31 224 0 238.3 0 256s14.31 32 32 32h210.8l-73.38 73.38c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0l128-128C355.1 266.1 355.1 245.9 342.6 233.4z"/></svg>'
-  - custom-attributes:
-      file: 'assets/css/custom_attributes.css'
-  - meta-descriptions
-hooks:
-  - overrides/hooks/on_page_markdown.py
-  
-extra_javascript:
-  - assets/js/mathjax.js
-  - assets/js/utils.js
-  - assets/js/wiki_hover.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-extra_css:
-    - assets/css/template/blog.css
-    - assets/css/template/grid.css
-    - assets/css/template/img-grids-float.css
-    - assets/css/template/tooltipster.bundle.min.css
-    - assets/css/template/utils.css
-    - assets/css/admonition.css
-    - assets/css/custom_attributes.css
-    - assets/css/customization.css
-    - stylesheets/extra.css
-
-# P
-
-# P
+#
+# Extras
+#
 extra:
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/
+  analytics:
+    provider: google
+    property: G-144Q0VJMBT
+    # property: UA-42618265-2
+  
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#cookie-consent
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  
+  disqus: "vuquangtrong-github-io"
+  
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/mr-karan
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/mrkaran_
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/dirigible.io
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/groups/8413366
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/c/dirigibleio
-# P
-  generator: false
+      link: https://github.com/vuquangtrong
+      name: vuquangtrong
+    - icon: fontawesome/brands/facebook-f
+      link: https://facebook.com/trongvq
+      name: trongvq
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/in/vqtrong
+      name: vqtrong
+  generator: false # hide the line "Made with Material for MkDocs"
+
+#
+# Custom styles and scripts
+#
+extra_css:
+  - assets/view-bigimg.css
+  - assets/extra.css
+extra_javascript:
+  - assets/mathjax.js # must be before mathjax
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/view-bigimg.js
+  - assets/extra.js
