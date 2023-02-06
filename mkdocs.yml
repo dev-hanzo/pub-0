@@ -76,7 +76,7 @@ plugins:
   # - section-index # must be after awesome-pages, replaced by navigation.indexes
   - git-revision-date-localized:
         enable_creation_date: true
-        fallback_to_build_date: true
+        fallback_to_build_date: false
         type: iso_date
   - encryptcontent:
         hljs: false
