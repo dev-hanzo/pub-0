@@ -1,11 +1,16 @@
 
-{% extends "base.html" %} {% block analytics %}
+{% extends "base.html" %} 
+
+{% block analytics %}
 
 {% endblock %}
 
 {# content #}
 {% block content %}
-    {% include "partials/post-content.html" %}
+  {{ super() }}
+{% include "partials/post-cover.html" %}
+{% include "partials/post-toc.html" %}
+
 {% endblock %}
 
 
