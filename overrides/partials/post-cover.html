@@ -36,7 +36,7 @@
 
 <div class="cover">
     {# category #}
-    {% if page.meta and page.meta.category %}
+    {% if page.meta.category %}
     <span class="page-category">
         {{ page.meta.category }} »
     </span>
@@ -44,10 +44,10 @@
     {% endif %}
 
     {# title #}
-    <h1 class="page-title"> {{ page_title | d(config.site_name, true) }} </h1>
+    <h1 class="page-title"> {{ page_title }} </h1>
 
     {# description #}
-    {% if page.meta and page.meta.description %}
+    {% if page.meta.description %}
         <p class="page-description">
             {{ page.meta.description }}
         </p>
