@@ -119,11 +119,7 @@ plugins:
   - literate-nav:
       nav_file: SUMMARY.md
 
-  - social:
-      cards_font: Noto Sans SC
-      cards_color:
-        fill: "#59eb9b" 
-        text: "#FFFFFF"
+
 
   - minify:
       minify_html: true
@@ -244,7 +240,22 @@ extra:
   
   
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer
-
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mr-karan
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mrkaran_
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/dirigible.io
+    - icon: fontawesome/brands/linkedin
+      link: https://www.youtube.com/c/dirigibleio
+    - icon: fontawesome/brands/instagram
+      link: https://www.youtube.com/c/dirigibleio
+    - icon: fontawesome/brands/product-hunt
+      link: https://www.youtube.com/c/dirigibleio
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<rur@tut.by>
+      
       
   generator: false # hide the line "Made with Material for MkDocs"
 
