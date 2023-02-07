@@ -2,12 +2,12 @@
 # Code Inside Out
 # vuquangtrong.github.io (aka codeinsideout.com)
 #
-site_name: Code Inside Out
+site_name: pit-blog
 site_url: https://pub-0.pages.dev/ # must have the trailing slash
-site_author: Vũ Quang Trọng (vuquangtrong@gmail.com)
-site_description: Guides, notes and useful stuff for learning embedded systems.
+site_author: peter rudenko
+site_description: все самое лучшее
 copyright: > # should remain a link to the original theme
-  &copy; 2020-2022 Code Inside Out<br>
+  &copy; 2020-2022 hanzo<br>
   <a href="https://github.com/vuquangtrong/mkdocs-material-blog">Blog Theme</a> /
   <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
 
@@ -33,8 +33,8 @@ theme:
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
   icon:
-    logo: fontawesome/solid/code
-  favicon: favicon.png
+    logo: assets/ava-40.svg
+  favicon: assets/ava-favicon.png
 
   features:
     # Navigation
@@ -75,9 +75,17 @@ plugins:
       # collapse_single_pages: true # replaced by navigation.indexes
   # - section-index # must be after awesome-pages, replaced by navigation.indexes
   - git-revision-date-localized:
+        type: custom
+        custom_format: "%d. %B %Y"
+        timezone: Europe/Amsterdam
+        locale: en
+        fallback_to_build_date: true
         enable_creation_date: false
-        fallback_to_build_date: false
-        type: iso_date
+        exclude:
+            - index.md
+            - tags.md
+        
+
   - encryptcontent:
         hljs: false
         arithmatex: false
@@ -106,7 +114,35 @@ plugins:
                 # <span class="totalPages"></span>
             # </div>
 
-#
+  - literate-nav:
+      nav_file: SUMMARY.md
+
+  - social:
+      cards_font: Noto Sans SC
+      cards_color:
+        fill: "#59eb9b" 
+        text: "#FFFFFF"
+
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true 
+        
+  - ezlinks
+  - mermaid2
+  - embed_file:
+      callouts: true
+      custom-attributes: 'assets/css/custom_attributes.css'
+  - callouts
+  - custom-attributes:
+      file: 'assets/css/custom_attributes.css'
+  - meta-descriptions
+        
+        
+        
+        
+
+
 # Extensions
 #
 markdown_extensions:
@@ -130,6 +166,20 @@ markdown_extensions:
   - smarty: # convert some special characters
       smart_angled_quotes: true
 
+#  - admonition
+#  - md_in_html
+  - codehilite
+#  - meta
+#  - attr_list
+#  - footnotes
+  - nl2br
+#  - sane_lists
+#  - smarty
+#  - tables
+  - mdx_breakless_lists
+#  - def_list
+
+
   #
   # Python Markdown Extensions
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
@@ -146,9 +196,18 @@ markdown_extensions:
   - pymdownx.emoji: # add inlines bundled and custom icons and emojis 
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.superfences # define code blocks and nesting of code
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.superfences: # define code blocks and nesting of code
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
   - pymdownx.highlight: # highlight of code blocks
-      linenums_style: pymdownx-inline
+      #linenums_style: pymdownx-inline
+      use_pygments: true
+      anchor_linenums: true
       # anchor_linenums: true # create anchor link on each line of code
   - pymdownx.inlinehilite # highlight inline code blocks
   - pymdownx.smartsymbols # convert some sequences of characters into their corresponding symbols
@@ -162,6 +221,12 @@ markdown_extensions:
       nbsp: true # use \<space> to create &nbsp;
   # - pymdownx.keys # syntax ++ctrl+c++ does not look clear in MD document
   - pymdownx.progressbar
+  
+  
+  
+  - pymdownx.magiclink
+  - pymdownx.keys
+  - pymdownx.tabbed
   
   #
   # Extra extensions
@@ -177,6 +242,41 @@ extra:
     property: G-144Q0VJMBT
     # property: UA-42618265-2
   
+
+  hooks:
+    strip_comments: false
+    fix_heading: false
+    
+# Custom styles and scripts
+#
+extra_css:
+  - assets/view-bigimg.css
+  - assets/extra.css
+  
+  
+    #- assets/css/template/blog.css
+    #- assets/css/template/grid.css
+    #- assets/css/template/img-grids-float.css
+    #- assets/css/template/tooltipster.bundle.min.css
+    #- assets/css/template/utils.css
+    #- assets/css/admonition.css
+    #- assets/css/custom_attributes.css
+    #- assets/css/customization.css
+    #- stylesheets/extra.css
+  
+
+extra_javascript:
+  - assets/mathjax.js # must be before mathjax
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/view-bigimg.js
+  - assets/extra.js
+
+  - assets/js/utils.js
+  - assets/js/wiki_hover.js
+
+
+
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#cookie-consent
   consent:
     title: Cookie consent
@@ -198,21 +298,38 @@ extra:
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/in/vqtrong
       name: vqtrong
-  generator: false # hide the line "Made with Material for MkDocs"
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mr-karan
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mrkaran_
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/dirigible.io
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/groups/8413366
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/dirigibleio
+      
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mr-karan
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mrkaran_
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/dirigible.io
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/groups/8413366
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/dirigibleio
 
-  hooks:
-    strip_comments: false
-    fix_heading: false
-    
-# Custom styles and scripts
-#
-extra_css:
-  - assets/view-bigimg.css
-  - assets/extra.css
-extra_javascript:
-  - assets/mathjax.js # must be before mathjax
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - assets/view-bigimg.js
-  - assets/extra.js
+    - icon: fontawesome/brands/instagram
+      link: https://www.youtube.com/c/dirigibleio
+    - icon: fontawesome/brands/product-hunt
+      link: https://www.youtube.com/c/dirigibleio
 
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<rur@tut.by>
+      
+      
+      
+      
+      
+  generator: true # hide the line "Made with Material for MkDocs"
