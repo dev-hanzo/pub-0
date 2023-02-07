@@ -168,7 +168,7 @@ markdown_extensions:
 
 # новые!!!!!!
   - codehilite
-  - nl2br
+  - nl2br #разрывы строк
   - mdx_breakless_lists #для встроенных из обсидиан
 
 
@@ -266,28 +266,28 @@ extra:
 # Custom styles and scripts
 #
 extra_css:
-  - assets/view-bigimg.css
-  - assets/extra.css
+  #- assets/view-bigimg.css
+  #- assets/extra.css
   
   
-    #- assets/css/template/blog.css
-    #- assets/css/template/grid.css
-    #- assets/css/template/img-grids-float.css
-    #- assets/css/template/tooltipster.bundle.min.css
-    #- assets/css/template/utils.css
-    #- assets/css/admonition.css
-    #- assets/css/custom_attributes.css
-    #- assets/css/customization.css
-    #- stylesheets/extra.css
+   - assets/css/template/blog.css
+   - assets/css/template/grid.css
+   - assets/css/template/img-grids-float.css
+   - assets/css/template/tooltipster.bundle.min.css
+   - assets/css/template/utils.css
+   - assets/css/admonition.css
+   - assets/css/custom_attributes.css
+   - assets/css/customization.css
+   - stylesheets/extra.css
   
 
 extra_javascript:
-  - assets/mathjax.js # must be before mathjax
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - assets/view-bigimg.js
-  - assets/extra.js
+  #- assets/mathjax.js # must be before mathjax
+  #- https://polyfill.io/v3/polyfill.min.js?features=es6
+  #- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  #- assets/view-bigimg.js
+  #- assets/extra.js
 
 # новые!!!!!!
-  - assets/js/utils.js
-  - assets/js/wiki_hover.js
+  #- assets/js/utils.js
+  #- assets/js/wiki_hover.js
