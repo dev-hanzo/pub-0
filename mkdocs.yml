@@ -34,7 +34,7 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
   icon:
     logo: assets/ava-40.svg
-  favicon: assets/ava-favicon.png
+    favicon: assets/ava-favicon.png
 
   features:
     # Navigation
@@ -196,6 +196,9 @@ markdown_extensions:
   - pymdownx.emoji: # add inlines bundled and custom icons and emojis 
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.superfences: # define code blocks and nesting of code
       custom_fences:
         - name: mermaid
