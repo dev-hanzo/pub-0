@@ -196,9 +196,6 @@ markdown_extensions:
   - pymdownx.emoji: # add inlines bundled and custom icons and emojis 
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-      options:
-        custom_icons:
-          - overrides/.icons
   - pymdownx.superfences: # define code blocks and nesting of code
       custom_fences:
         - name: mermaid
