@@ -34,9 +34,9 @@ theme:
     code: Roboto Mono
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
-  icon:
-    logo: assets/ava-40.svg
-  favicon: assets/ava-favicon.png
+
+
+
 
   features:
     # Navigation
@@ -198,7 +198,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid
   - pymdownx.highlight: # highlight of code blocks
-      #linenums_style: pymdownx-inline
+      linenums_style: pymdownx-inline
       use_pygments: true
       anchor_linenums: true
       # anchor_linenums: true # create anchor link on each line of code
