@@ -168,18 +168,13 @@ markdown_extensions:
   - smarty: # convert some special characters
       smart_angled_quotes: true
 
-#  - admonition
-#  - md_in_html
+
+
+# новые!!!!!!
   - codehilite
-#  - meta
-#  - attr_list
-#  - footnotes
   - nl2br
-#  - sane_lists
-#  - smarty
-#  - tables
-  - mdx_breakless_lists
-#  - def_list
+  - mdx_breakless_lists #для встроенных из обсидиан
+
 
 
   #
@@ -225,7 +220,7 @@ markdown_extensions:
   - pymdownx.progressbar
   
   
-  
+# новые!!!!!!
   - pymdownx.magiclink
   - pymdownx.keys
   - pymdownx.tabbed
@@ -249,22 +244,7 @@ extra:
   
   
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/mr-karan
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/mrkaran_
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/dirigible.io
-    - icon: fontawesome/brands/linkedin
-      link: https://www.youtube.com/c/dirigibleio
-    - icon: fontawesome/brands/instagram
-      link: https://www.youtube.com/c/dirigibleio
-    - icon: fontawesome/brands/product-hunt
-      link: https://www.youtube.com/c/dirigibleio
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:<rur@tut.by>
-      
+
       
   generator: false # hide the line "Made with Material for MkDocs"
 
@@ -297,5 +277,6 @@ extra_javascript:
   - assets/view-bigimg.js
   - assets/extra.js
 
+# новые!!!!!!
   - assets/js/utils.js
   - assets/js/wiki_hover.js
