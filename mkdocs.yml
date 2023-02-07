@@ -17,9 +17,9 @@ copyright: > # should remain a link to the original theme
 theme:
   # https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
   name: material
-  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
   logo: assets/ava-40.svg
   favicon: assets/ava-favicon.png
+
   # https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
   custom_dir: overrides
 
@@ -33,7 +33,10 @@ theme:
     text: Noto Serif
     code: Roboto Mono
 
-
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
+  icon:
+    logo: assets/ava-40.svg
+  favicon: assets/ava-favicon.png
 
   features:
     # Navigation
@@ -78,8 +81,8 @@ plugins:
         custom_format: "%d. %B %Y"
         timezone: Europe/Amsterdam
         locale: en
-        fallback_to_build_date: true
-        enable_creation_date: false
+        fallback_to_build_date: false
+        enable_creation_date: true
         exclude:
             - index.md
             - tags.md
@@ -115,6 +118,12 @@ plugins:
 
   - literate-nav:
       nav_file: SUMMARY.md
+
+  - social:
+      cards_font: Noto Sans SC
+      cards_color:
+        fill: "#59eb9b" 
+        text: "#FFFFFF"
 
   - minify:
       minify_html: true
@@ -235,6 +244,56 @@ extra:
     property: G-144Q0VJMBT
     # property: UA-42618265-2
   
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#cookie-consent
+
+  
+  
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/vuquangtrong
+      name: vuquangtrong
+    - icon: fontawesome/brands/facebook-f
+      link: https://facebook.com/trongvq
+      name: trongvq
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/in/vqtrong
+      name: vqtrong
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mr-karan
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mrkaran_
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/dirigible.io
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/groups/8413366
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/dirigibleio
+      
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mr-karan
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mrkaran_
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/dirigible.io
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/groups/8413366
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/dirigibleio
+
+    - icon: fontawesome/brands/instagram
+      link: https://www.youtube.com/c/dirigibleio
+    - icon: fontawesome/brands/product-hunt
+      link: https://www.youtube.com/c/dirigibleio
+
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<rur@tut.by>
+      
+      
+      
+      
+      
+  generator: false # hide the line "Made with Material for MkDocs"
 
   hooks:
     strip_comments: false
@@ -267,6 +326,3 @@ extra_javascript:
 
   - assets/js/utils.js
   - assets/js/wiki_hover.js
-
-
-
