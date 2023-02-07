@@ -116,12 +116,6 @@ plugins:
   - literate-nav:
       nav_file: SUMMARY.md
 
-  - social:
-      cards_font: Noto Sans SC
-      cards_color:
-        fill: "#59eb9b" 
-        text: "#FFFFFF"
-
   - minify:
       minify_html: true
       htmlmin_opts:
