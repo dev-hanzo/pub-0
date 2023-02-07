@@ -17,7 +17,9 @@ copyright: > # should remain a link to the original theme
 theme:
   # https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
   name: material
-
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
+  logo: assets/ava-40.svg
+  favicon: assets/ava-favicon.png
   # https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
   custom_dir: overrides
 
@@ -31,10 +33,7 @@ theme:
     text: Noto Serif
     code: Roboto Mono
 
-  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
-  icon:
-    logo: assets/ava-40.svg
-    favicon: assets/ava-favicon.png
+
 
   features:
     # Navigation
