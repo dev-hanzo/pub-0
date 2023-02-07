@@ -75,7 +75,7 @@ plugins:
       # collapse_single_pages: true # replaced by navigation.indexes
   # - section-index # must be after awesome-pages, replaced by navigation.indexes
   - git-revision-date-localized:
-        enable_creation_date: true
+        enable_creation_date: false
         fallback_to_build_date: false
         type: iso_date
   - encryptcontent:

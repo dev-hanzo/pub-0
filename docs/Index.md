@@ -1,12 +1,15 @@
 ---
-title: Home
-description: ""
-hide:
-    - navigation
+share_blog: true
+title:
+category:
+description: главная
 ---
 
-# Code Inside Out
+# 🔰 Start
 
-Interesting stuff in Embedded Systems and IoT Applications.\
-From hardware to cloud applications. Step by step.
-(ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧
+
+jhhbljhljjljbh
+
+
+
+jhbjhjbjh
