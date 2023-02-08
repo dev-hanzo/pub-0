@@ -12,9 +12,7 @@
 
   {% for page in (blog_posts|sort(attribute="meta.date", reverse=True))[:config.extra.blog.list_length] %}
       <h2><a href="{{ page.url|url }}">{{ page.title }}</a></h2>
-      <p>
-        <b>{{ page.meta.description }}</b>
-      </p>
+
       {% include "partials/blog_metadata.html" %}
       <hr>
       <!-- Use a hidden p tag to provide a preview -->
