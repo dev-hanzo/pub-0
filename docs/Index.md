@@ -1,6 +1,6 @@
 ---
 share_blog: true
-title:
+title: home
 category:
 description: главная
 ---

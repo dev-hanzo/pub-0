@@ -1,2 +1,2 @@
-* [hiki](Hiking2/)
+* [hiki](Hiking/)
 * [notes](Notes/)

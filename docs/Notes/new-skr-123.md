@@ -14,7 +14,7 @@ tags:
 
 ---
 
-![](Pasted%20image%2020230203091927.png)
+![](https://pulson.ru/wp-content/uploads/2012/01/wallpaper-603460-720x450.jpg
 
 ![](../_Files_/Pasted image 20230203093909.png)
 
